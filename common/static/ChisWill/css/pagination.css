@@ -1,0 +1,13 @@
+table th .sort-table-th:after {
+    right: 0;
+    float: right;
+}
+table th .sort-table-th[sort="none"]:after {
+    content: url(../images/sort_none.png);
+}
+table th .sort-table-th[sort="asc"]:after {
+    content: url(../images/sort_asc.png);
+}
+table th .sort-table-th[sort="desc"]:after {
+    content: url(../images/sort_desc.png);
+}

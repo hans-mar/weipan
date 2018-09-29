@@ -1,0 +1,2 @@
+a:5:{s:4:"user";s:2:"wq";s:3:"sql";s:114:"ALTER TABLE `user_extend`
+ADD COLUMN `point`  tinyint(3) NULL DEFAULT 0 COMMENT '返点百分比%' AFTER `mobile`;";s:4:"desc";s:11:"user_extend";s:7:"warning";a:0:{}s:6:"delete";b:1;}

@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: microsoft yahei;
+}
+.sql-textarea {
+    width: 1050px;
+    height: 220px;
+}
+.desc-input {
+    width: 700px;
+}
+a { 
+    text-decoration: none;
+}
+body {
+    font-size: 14px;
+    padding: 0px;
+    margin: 5px;
+}
+ul {
+    border: 5px;
+    overflow: hidden;
+}
+ul li {
+    line-height: 28px;
+    float: left;
+    list-style-type: none;
+}
+ul li a {
+    display: block;
+    border: 1px solid #DDD;
+    padding: 0 10px;
+    color: #333;
+}
+ul li a.active, ul li a.active:hover {
+    border: 1px solid #3399CC;
+    background: #3399CC;
+    color: #FFF;
+}
+ul li a:hover {
+    border: 1px solid #3399CC;
+    color: #3399CC;
+}
+button {
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px 10px;
+    margin: 5px 0;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table th,table td {
+    padding: 5px;
+    border: 1px solid #DDD;
+    text-align: center;
+}
+table th img {
+    vertical-align: middle;
+}
+#sync-all-div div {
+    display: inline-block;
+}
+#sync-all-div .search-form-div {
+    position: absolute;
+    right: 20px;
+    margin-top: 3px;
+}
+.search-form-div input {
+    padding: 5px 10px;
+}
+a.sort-table-th {
+    color: #000;
+}
+a.view-fancybox {
+    color: #00A833;
+}
+a.view-fancybox:hover {
+    color: #009CE4;
+}
+a.sync-migration {
+    color: #E3E;
+}
+a.edit-migration {
+    color: #36F;
+}
+a.delete-migration {
+    color: #FF0000;
+}
+a.sync-migration:hover, a.edit-migration:hover, a.delete-migration:hover {
+    color: #3C3;
+}
+.pager {
+    float: right;
+    height: 22px;
+    line-height: 22px;
+    margin: 15px 0 0;
+}
+.pager span,.pager input {
+    display: inline-block;
+}
+.pager>.page-go {
+    margin: 0 3px;
+}
+ul.pagination {
+    display: inline-block;
+    vertical-align: bottom;
+    margin: 2px;
+}
+ul.pagination li {
+    line-height: 20px;
+    margin: 0 0 0 5px;
+}
+ul.pagination li a {
+    padding: 0 5px;
+}
+ul.pagination li.active a {
+    background: #3399CC;
+    border: 1px solid #3399CC;
+    color: #FFF;
+}
+input.page-go {
+    width: 30px;
+}
+#migrateForm {
+    line-height: 30px;
+}
+.form-group input {
+    padding: 3px 10px;
+}
+.form-group textarea {
+    padding: 10px;
+}
+input.migrateSubmit {
+    background: #3399CC;
+    color: #FFF;
+    padding: 5px 30px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input.migrateSubmit:hover {
+    background: #3388cc;
+}
+.migrate-submit-div {
+    margin-top: 15px;
+}

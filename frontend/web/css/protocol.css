@@ -1,0 +1,22 @@
+body{background-color:#f2f2f2}
+.protocol-box{background-color:#f2f2f2;font-size:14px;color:#444}
+.protocol-box .title{font-size:18px;font-weight:600;text-align:center;padding:10px 6px;border-bottom:1px solid #ccc}
+.protocol-box .content{line-height:1.8em;padding:10px 10px;border-bottom:1px solid #ccc;box-sizing:border-box;overflow:auto}
+.protocol-box .protocol-bottom>label{padding:10px 6px 0;display:inline-block}.protocol-box .indend-2{text-indent:2em}
+.protocol-bottom {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+}
+
+.sure-btn-wrap>div .determine label {
+    color: #fff;
+    background-color: #e89532 !important;
+    border: 1px solid #e89532 !important;
+}
+
+
+

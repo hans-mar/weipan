@@ -1,0 +1,16 @@
+a:5:{s:4:"user";s:2:"wq";s:3:"sql";s:691:"DROP TABLE IF EXISTS `user_extend`;
+CREATE TABLE `user_extend` (
+  `user_id` int(11) NOT NULL,
+  `realname` varchar(20) NOT NULL COMMENT '真实姓名',
+  `mobile` char(11) DEFAULT '' COMMENT '手机号',
+  `rebate_account` decimal(13,2) DEFAULT '0.00' COMMENT '返佣金额',
+  `coding` int(10) DEFAULT '0' COMMENT '机构编码或微圈编码',
+  `state` tinyint(4) DEFAULT '1',
+  `created_at` datetime DEFAULT NULL COMMENT '注册时间',
+  `created_by` int(11) DEFAULT NULL,
+  `updated_at` datetime DEFAULT NULL,
+  `updated_by` int(11) DEFAULT NULL,
+  PRIMARY KEY (`user_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='用户表扩展经纪人';
+ALTER TABLE `user`
+DROP COLUMN `m_id`;";s:4:"desc";s:11:"user_extend";s:7:"warning";a:1:{i:0;s:4:"DROP";}s:6:"delete";b:1;}

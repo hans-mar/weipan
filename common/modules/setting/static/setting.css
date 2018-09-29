@@ -1,0 +1,188 @@
+.clearfix::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+.setting-container * {
+    margin: 0;
+    padding: 0;
+}
+.setting-container ul li {
+    list-style: none;
+}
+.setting-container img {
+    border: 0 none;
+    vertical-align: middle;
+}
+.setting-container a {
+    text-decoration: none;
+}
+.setting-container table td span {
+    vertical-align: inherit;
+}
+.setting-container table.setting-table {
+    width: 900px;
+    margin: 20px 0 0 20px;
+}
+.setting-container table h4 {
+    margin: 0 0 10px 5px;
+    color: #456;
+}
+.setting-container table td {
+    width: 30%;
+}
+.setting-container table td.web-padding{
+    padding: 10px 0 0 0;
+}
+.setting-container table th {
+    font-size: 16px;
+    height: 24px;
+    text-align: left;
+}
+.setting-container table tr {
+    margin: 20px 0 0;
+}
+.setting-container input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 420px;
+}
+.setting-container textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 420px;
+}
+.setting-container select {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 0;
+    width: 442px;
+}
+.setting-container input[type="button"] {
+    background: none repeat scroll 0 0 #119BFF;
+    border: 0 none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 7px 0;
+    width: 442px;
+}
+.setting-container input[type="button"]:hover {
+    background: none repeat scroll 0 0 #007AFF;
+    color: white;
+}
+.setting-container input[type="checkbox"], .setting-container input[type="radio"] {
+    width: 14px;
+}
+.setting-container label {
+    margin: 0 15px 0 0;
+}
+.setting-container ul {
+    margin: 20px 0 0 20px;
+    width: 900px;
+}
+.setting-container ul li {
+    float: left;
+    margin: 0 5px 0 0;
+}
+.setting-container ul li a {
+    color: #333;
+    display: block;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+.setting-container ul li a.selected, .setting-container ul li a:hover {
+    background: none repeat scroll 0 0 #007AFF;
+    border-radius: 5px;
+    color: white;
+}
+.setting-container ul li span {
+    line-height: 28px;
+    margin: 0 0 0 20px;
+}
+.setting-container ul li img {
+    cursor: pointer;
+    width: 29px;
+}
+.setting-container .change-edit-li {
+    float: right;
+}
+.setting-container .change-edit-li a {
+    background: none repeat scroll 0 0 #89BF5C;
+    border-radius: 5px;
+    color: white;
+}
+.setting-container .change-edit-li a.showText {
+    background: none repeat scroll 0 0 #89BF5C;
+}
+.setting-container .change-edit-li a.showEdit {
+    background: none repeat scroll 0 0 #D67DB8;
+}
+.setting-container .add-link-img {
+    cursor: pointer;
+    margin-left: 10px;
+    vertical-align: top;
+    width: 21px;
+}
+.setting-container .delete-link-img {
+    cursor: pointer;
+    width: 20px;
+}
+.setting-container td .add-link-img {
+    vertical-align: text-bottom;
+    width: 19px;
+}
+.setting-container .add-child-select {
+    height: 23px;
+    margin: 0 5px;
+    padding: 0;
+    width: 100px;
+}
+.setting-container .menu-name-input {
+    padding: 5px;
+    width: 150px;
+}
+.setting-container input.menu-name-submit {
+    margin-left: 5px;
+    padding: 5px;
+    width: 50px;
+}
+.setting-container .child-menu-input {
+    height: 20px;
+    margin-left: 5px;
+    padding: 0 0 0 5px;
+    width: 130px;
+}
+.setting-container input.child-menu-submit {
+    height: 22px;
+    margin-left: 5px;
+    padding: 0;
+    width: 50px;
+}
+.setting-container .add-parent-span {
+    color: #F6526B;
+    vertical-align: top;
+}
+.setting-container .add-child-span {
+    color: #a83bf7;
+}
+.setting-container .showMode {
+    display: none;
+}
+.setting-container a.fancybox {
+    color: #5c97e0;
+}
+.setting-container a.fancybox:hover {
+    color: #3b68f1;
+}
+.setting-container .add-bar {
+    height: 33px;
+}
+.setting-container .submit-bar {
+    height: 45px;
+}

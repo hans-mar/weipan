@@ -1,0 +1,847 @@
+.col-1{color:#333 !important;}
+.col-2{color:#777 !important;}
+.col-3{color:#bbb !important}
+.col-4{color:#136aab !important}
+.col-r{color:#ec5554 !important;}
+.col-w{color: white !important;}
+.col-5{color:#2a639c !important;}
+.col-g{color: #4ddb97 !important;}
+.col-o{color:#f0a728 !important;}
+.col-y{color:gold !important;}
+.col-yin{color:#9db6ea !important}
+.col-b{color:#33669a !important}
+.col-b2{color:#20c2e8}
+.col-b3{color: #297591;}
+.col-p{color:orchid !important}
+.col-up{ color:#ef2e49}
+.col-down{ color:#17b03e}
+
+.btn-white{background-color: white;}
+.btn-no{background-color: #d4d4d4;}
+.btn-blue4{background-color:#1b86ce;}
+.btn-hui{background-color:#ddd !important;}
+.btn-hui2{background-color:#f0f5fb !important;}
+.moni.btn-hui2{background-color:#f5f5f5 !important;}
+.btn-blue3{background-color: #c2e3fb;}
+.btn-blue{ background-color: #229FDC;}
+.btn-blue2{background-color:#396b9e;}
+.btn-red{background-color:#F54545}
+.btn-yellow{background-color: #f7ca30;}
+.btn-orange{background-color: #f79e30;}
+.btn-up{background-color:#ea2f2f}
+.btn-down{background-color:#00a96b}
+.btn-off{
+	background-color: #b7b7b7;
+	box-shadow: 0 0 0 rgba(0,0,0,0);
+}
+.btn{border: 0;}
+.confi-btn{
+	font-weight:500 ;
+	box-shadow: 0 0 5px rgba(239,52,57,.6);
+	width: 90%;
+	color: white;
+	height: .4rem;
+	margin: .2rem auto;
+	border-radius:.05rem;
+	line-height: .4rem;
+	font-size: .16rem;
+	text-align: center;
+	border: 0;
+}
+.confi-btn2{
+	border: 0;
+	box-shadow: 0 0 5px rgba(54,106,140,.8);
+	width: 90%;
+	color: white;
+	height: .4rem;
+	margin: .2rem auto 0;
+	border-radius:.05rem;
+	line-height: .4rem;
+	font-size: .16rem;
+	text-align: center;
+	font-weight:500 ;
+}
+.confirm{
+	position: fixed;
+	bottom: 0;
+	color: white;
+	text-align: center;
+	line-height: .4rem;
+	height: .4rem;
+	width: 100%;
+	border: 0;
+	font-size: .16rem;
+	font-weight: bold;
+}
+.tip{
+	width: 100%;
+	margin: .08rem auto;
+	text-align: center;
+	color: #666;
+}
+.confi-btn-hui{
+	box-shadow: 0 0 5px rgba(16,132,206,0);
+	font-weight:500 ;
+	background-color:#c2c2c2 !important;
+	width: 90%;
+	color: white;
+	height: .4rem;
+	margin: .2rem auto;
+	border-radius:.05rem;
+	line-height: .4rem;
+	font-size: .16rem;
+	text-align: center;
+	border: 0;
+}
+html{-webkit-tap-highlight-color: rgba(255,0,0,0);}
+
+/*  ↓↓↓↓  版本部分切换样式       ↓↓↓↓  */
+body{ background-color:#eff1f6}
+/*		登录注册页		  */
+.btn-1{
+	background-color:#396b9e;
+	background: -webkit-linear-gradient(120deg,#1c4f82 ,#2e7bc7); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(120deg,#1c4f82 ,#2e7bc7); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(120deg,#1c4f82 ,#2e7bc7 ); /* Firefox 3.6 - 15 */
+    background: linear-gradient(120deg,#1c4f82 ,#2e7bc7); /* 标准的语法 */
+}
+.btn-2{
+	background-color: white;
+}
+.btn-2 a{
+	color: #1c4f82;
+}
+.btn-register a{
+	color:#33669a !important
+}
+.btn-3{
+	background-color:#396b9e;
+}
+/*  ↑↑↑↑  版本切换样式       ↑↑↑↑  */
+
+/*	index-head	*/
+.tr-tab.moni li span{
+	background-color:#929292 !important;	
+}
+.index-head.moni{
+	background-color:#616161 !important;
+}
+.index-head{
+	width: 100%;
+	height: .45rem;
+	background-color:#094078;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 1000;
+	opacity:.92;
+}
+
+/*     banner       */
+.swiper-pagination-bullet {
+	width: 8px;
+	height: 8px;
+	display: inline-block;
+	border-radius: 100%;
+	background: #fff;
+	opacity: .4
+}
+
+.swiper-pagination-white .swiper-pagination-bullet {
+	background: #fff
+}
+.swiper-pagination-bullet-active {
+	opacity: 1;
+	background: #fff
+}
+.swiper-pagination-white .swiper-pagination-bullet-active {
+	background: #fff
+}
+.swiper-pagination-black .swiper-pagination-bullet-active {
+	background: #000
+}
+
+
+
+/*	tab			*/
+.index-tab{
+	background-color: white;
+}
+
+/*		首页热门		*/
+/* .shipan{
+	position: relative;
+}
+.shipan:after{
+	content: "";
+    display: block;
+    position: absolute;
+    left:.28rem;
+    top: 50%;
+    width:25%;
+    height: 1px;
+    background: #afbfc5;
+}
+.shipan:before{
+	content: "";
+    display: block;
+    position: absolute;
+    right:.28rem;
+    top: 50%;
+    width:25%;
+    height: 1px;
+    background: #afbfc5;
+} */
+.index-hot{
+	background-color: white;
+}
+.index-hot h3{
+	border-bottom: 1px #ccc solid;
+}
+.index-hot li{
+	border-bottom: 1px solid #ccc;
+}
+.index-hot li a>i div{
+	color: white;
+}
+/* .index-hot .ri span{
+	padding: .01rem .03rem;
+	font-size:.14rem;
+	display: inline-block;
+	height: .3re,;
+	line-height: .3rem;
+	margin-top: .1rem;
+}
+.index-hot .ri span:first-child{
+	color: #f75f72
+}
+.index-hot .ri span:last-child{
+	padding:0 .05rem;
+	border-radius:4px;
+	background-color: #f75f72;
+	color:white;
+} */
+.index-hot .ri p{
+	color:#f34b60;
+}
+.index-hot .ri.active3 p:last-child{
+	background-color:#808080!important;
+}
+.index-hot .ri.active3 p:first-child{
+	color:#808080 !important;
+}
+.index-hot .ri.active p{
+	color:#29ce92;
+}
+.index-hot .ri p:last-child{
+	background-color:#f34b60;
+	color:white;
+}
+.index-hot .ri.active p:last-child{
+	background-color: #29ce92;
+}
+.col-ty{ color:#f9da0c;}
+.col-yl{color: #2481b7;}
+
+/*    bottom     */
+.bottom{
+         background-color:#fff;
+}
+.bottom:before{ 
+                background-color:#999;
+}
+
+/*			交易页				*/
+.tr-tab{
+	border-bottom:1px solid #CCCCCC;
+}
+.tr-tab li,.tr-head li{
+	background-color:#f0f5fb;
+}
+.tr-tab2{
+	box-shadow: 0 1px 5px rgba(0,0,0,.5);
+}
+.tr-tab2 li{
+	background-color:#f0f5fb !important;
+}
+.tr-tab2 li:not(:first-child):before{
+	background-color:#d2d7dc;
+}
+.tr-tab2:before{
+	border-bottom:10px solid #f0f5fb;
+}
+.moni.tr-tab li,.moni.tr-head li{
+	background-color:#f5f5f5 !important;
+}
+.tr-head li button{
+	color: #ef2e49;
+	border: 1px #ef2e49 solid;
+}
+.tr-tab span{
+	background-color:#366ca2;
+}
+.tr-content{
+	background-color: white;
+}
+.tr-content .buy-in i{
+	background-color:#ea2f2f;
+}
+.tr-content .sale-out i{
+	background-color:#00a96b;
+}
+.buy-btn .btn-le{
+	color:#1c4f82;
+}
+.moni.buy-btn .btn-le{
+	color:#333;
+}
+.buy-btn li a{
+	color:white;
+}
+.buy-btn .other:first-child:after{
+	background:#b8d0ec;
+}
+.moni.buy-btn .other:first-child:after{
+	background:#ccc;
+}
+.chartBox.col-1{
+	background-color: white;
+}
+.chartBox.col-1 li{
+	border-right: 1px #ccc solid;
+	background-color: white;
+	border-bottom: 1px #ccc solid;
+}
+/*     持仓          */
+.position-tab div{
+	border: white 2px solid;
+}
+.position-tab div a{
+	background-color:#1c4f82;
+	color:white;
+}
+.position-tab.sim div a{
+	background-color:#616161;
+}
+.position-tab div a.active{
+	background-color:white;
+	color:#1c4f82;
+}
+.position-tab.sim div a.active{
+	background-color:white;
+	color:#616161;
+}
+.position-list li{
+	background-color: white;
+	border-bottom: 1px #ccc solid;
+}
+.position-list li .list-top{
+	border-bottom: 1px dashed #999;
+}
+.position-list li .list-top button{
+	border:1px #0c80d6 solid;
+}
+.position-list li .list-top button a{
+	color:#0c80d6;	
+}
+.position-list .list-bottom .right button{
+	color:white;
+}
+/*			结算			*/
+.settlement-more{
+	background-color: white;
+	border:1px #ccc solid;
+}
+
+/*		设置止盈止损		*/
+.stop{
+	border-bottom:1px #ccc solid;
+	background-color: white;
+}
+.stop .win{
+	border-bottom:1px solid #ccc;
+}
+.stop div input{
+	border: 1px #999 solid;
+}
+.buy-choose,.buy-choose2,.buy-choose3{
+	background-color: white;
+}
+.buy-choose li,.buy-choose2 li{
+	border-bottom: 1px #ccc solid;
+}
+.buy-choose .num em,.buy-choose2 .num em{
+	color:#2b80c5;
+	border: 1px #2b80c5 solid;
+}
+.buy-choose .num em.active,.buy-choose2 .num em.active{
+	background-color:#2b80c5;
+	color: white;
+}
+.buy-choose li .win input,.buy-choose li .lost input{
+	border: 1px #ccc solid;
+}
+.buy-choose li .win button,.buy-choose li .lost button{
+	border: 1px #ccc solid;
+	background-color: white;
+}
+.buy-choose li .add-btn,.stop div .add-btn{
+	color:#229FDC;
+}
+.buy-choose li .red-btn,.stop div .red-btn{
+	color:#F2646E;
+}
+.stop div .red-btn{
+	background-color:white;
+	color: #F2646E;
+	border: 1px solid #999;
+}
+.stop div .add-btn{
+	background-color: white;
+	color:#229FDC;
+	border: 1px solid #999;
+}
+.buy-choose li .red-btn.off,.stop div .red-btn.off,.buy-choose li .add-btn.off,.stop div .add-btn.off{
+	background-color: #ccc !important;
+}
+.jt-maidie:before {
+	color: #17b03e;
+}
+.jt-maizhang:before {
+	color: #d0402d;
+}
+.jinquan{
+	color:#ff4448;
+}
+.bg-btn{
+	background-color: #d7d7d7;
+}
+.yuan-btn{
+	background-color: white;
+	box-shadow:2px 2px 5px rgba(0,0,0,.3);
+}
+.active2{
+	background-color: #229fdc !important;
+}
+.buy-choose3{
+	border-bottom: 1px #ccc solid;
+}
+
+
+/*		推广页		*/
+.promote-way{
+	background-color: white;	
+}
+.promote-way dt{ 
+	background-color:#2d6dad; 
+	text-shadow:0px 0px 5px rgba(255,255,255,.5);
+	box-shadow:0px 4px 5px rgba(29,129,175,.5);
+	color:#FFF; 
+}
+.promote-way dd{
+	box-shadow:0px 4px 5px rgba(29,129,175,.5);
+	color:#FFF;
+	background-color:#3b7fc3;
+}
+.promote{
+	background-color: white;
+}
+.promote .head{
+	border-bottom: 1px solid #ccc;	
+}
+.promote button{
+	color: white;
+}
+.promote-content{
+	background-color: white;
+}
+.promote-content div:first-child{
+	border-bottom: 1px solid #ccc;	
+}
+.promote-content .head li:not(:last-child):after{
+	background-color: #ccc;
+}
+.promote-img,.promote-copy{
+	background-color: white;
+}
+.promote-copy button{
+	border: 1px #F54545 solid;
+	color: #F54545;
+	background-color: white;
+}
+.promote-he{
+	background-color: white;
+}
+.promote-he .head:after{
+	background-color: #999;
+}
+.promote-he .content li span{
+	background-color:#397dc1;
+	color: white;
+}
+.promote-rank table{
+	box-shadow: 1px 1px 5px #999;
+}
+.promote-rank tr:first-child{
+	background-color:#2b6bab;
+	color: white;
+}
+.promote-rank tr:not(:first-child) td{
+	background-color: white;
+}
+.promote-rank tr:nth-child(2),.promote-rank tr:nth-child(3){
+	border-bottom: 1px dashed #999;
+}
+/*		我的用户		*/
+.tab-users{
+	border-bottom: 1px #ccc solid;
+}
+.tab-users li{
+	background-color: white;
+}
+.tab-users li.active{
+	color: #2481B7;
+	border-bottom: 2px solid #2481B7;
+}
+.tab-content li{
+	background-color: white;
+	border-bottom: 1px #ccc solid;
+}
+
+/*	支付页面		*/
+.type-title{
+	background-color: white;
+	border-bottom: 1px #ccc solid;
+}
+.type-choose{
+	background-color: white;
+	border-bottom:1px #ccc solid;
+}
+.type-choose li:not(:last-child){
+	border-bottom: 1px #ccc solid;
+}
+.num-choose{
+	background-color: white;
+	border-bottom:1px #ccc solid;
+}
+.num-choose li{
+	border: 1px #ccc solid;
+	color:#666
+}
+.num-choose li.active{
+	background-color:#3595de;
+	color: white;
+	border-color:rgba(0,0,0,0);
+	background: -webkit-linear-gradient(left top,#396b9e ,#3595de ); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(bottom right,#396b9e ,#3595de ); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(bottom right,#396b9e ,#3595de ); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to bottom right,#396b9e ,#3595de ); /* 标准的语法 */
+}
+.num-input{
+	background-color: white;
+	border-bottom: 1px #ccc solid;
+}
+.num-input input{
+	background-color:white;
+}
+.cil1{
+	background-color:#fff;
+	border:1px solid #ccc;
+}
+.cil.active .cil1{
+	background-color: #396b9e;
+	background: -webkit-linear-gradient(left top, #396b9e ,#3595de ); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(bottom right,#396b9e ,#3595de ); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(bottom right,#396b9e ,#3595de ); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to bottom right,#396b9e ,#3595de ); /* 标准的语法 */
+}
+
+/*    用户界面      */
+.user-bg{
+	background:url(../img/info_bg.jpg) ;
+	/*background:url(../img/bg.png) no-repeat;*/
+	background-size:cover;
+	width: 100%;
+	height:1.8rem;
+}
+.user-bg .user-name{
+	color: #333;
+}
+.user-bg .user-box span{
+	border: 2px #fff solid;
+}
+
+.user-bg p{
+	color: #DA2F34;
+}
+.user-bg button{
+	color:#fff;
+}
+.user-bg a:first-child button{
+	background-color: #5f5859;
+}
+.user-bg a:last-child button{
+	background-color: #3083c1;
+	color: #fff;
+}
+.user-bg button i{
+	color: #fff;
+}
+.user-content ul{
+	background-color: white;
+}
+.user-content li{
+	border-bottom:1px solid #ccc;
+}
+.user-content li i:last-child{
+	color: #bababa;
+}
+.co1{color: #95c6ea;}
+.co2{color: #95c6ea;}
+.co3{color: #2593d8;}
+.co4{color: #2593d8;}
+.co5{color: #2593d8;}
+.co6{color: #95c6ea;}
+.co7{color: #f2646e;}
+.co8{color: #ea4c4c;}
+.co9{color: #87afc7;}
+
+
+/*		信息设置 		*/
+.user-m-cont{
+	border-bottom:1px solid #ccc ;
+}
+.user-m-cont>li{
+	background-color: white;
+}
+.user-m-cont li:not(:last-child) span{
+	border-bottom:1px #ccc solid;
+}
+
+/*		 设置内页		*/
+.get-code{
+	color: white;
+}
+
+/*				优惠券			*/
+.cou-content li span{
+	color: white;
+}
+.cou-content li em{
+	color: #999;
+}
+.cou-content li i{
+	color: #999;
+}
+
+/*		资金明细		*/
+.mo-content{
+	background-color:#1c4f82;	
+}
+.mo-content .head .ri button{
+	color: white;
+}
+.mo-content .head .ri button:first-child{
+	background-color:#0261a5;
+	border: 1px white solid;
+}
+.mo-content .head .le em{
+	color:white !important;
+}
+.mo-content .detail-tab{
+	border: 1px white solid;
+}
+.mo-content .detail-tab li{
+	color: white;
+}
+.mo-content .detail-tab li:not(:last-child){
+	border-right:1px solid white ;
+}
+.mo-content .detail-tab li.active{
+	background-color: white;
+	color:#4471bc;
+}
+.mo-content .foot{
+	color: white;
+}
+.mo-content .foot span:not(:last-child):after{
+	background-color:#7b98b5; 
+}
+.col-mo{
+	color: #76c5fd;
+}
+.col-mo-red{
+	color: #EA325E;
+}
+.col-mo-green{
+	color:#3BCE9D ;
+}
+.mo-content2{
+	background-color:white;
+}
+.mo-content2 h3{
+	border-bottom:1px solid #ccc ;
+}
+.mo-list .top:after{
+	background-color: #ccc;
+}
+.mo-list .top,.mo-list .message{
+	background-color: white;
+}
+.mo-list .top li:not(:last-child):after{
+	background-color: #ccc;
+} 
+.mo-list .content li:not(:last-child) .message{
+	border-bottom: 1px #ccc dashed;	
+}
+.mo-list .message li button{
+	background-color: white;
+	border: 1px #FB2C49 solid;
+}
+/*		提款页面		*/
+.atm-balance{
+	background-color: white;
+	border-bottom:1px #ccc solid;
+}
+
+/*      登录注册页              */
+
+
+/*		资金明细		*/
+.money{
+	background-color: white;
+	border-bottom: 1px solid #ccc;
+}
+.mo-detail{
+	background-color: white;
+}
+.de-list2-active{
+	background-color:rgba(0,0,0,.5);
+}
+.de-list li{
+	background-color: white;
+	border-bottom: 1px solid#ccc;
+	box-shadow: 1px 1px 4px rgba(0,0,0,.3);
+}
+.mo-detail li{
+	border-bottom: 1px solid #ccc;
+}
+
+/*		图表加载动画		*/
+.round{
+    border: 3px solid #48b3e5;
+    border-top-color:#fff;
+}
+.text{
+    color: #48b3e5;
+}
+
+/*		警告及其他协议等页面		*/
+.warning{
+	background-color: white;
+}
+.warning dd, .warning dt{
+	border: 2px #229FDC solid;
+} 
+.warning dt{
+	background-color: #229FDC;
+	color: white;
+	border: 2px #229FDC solid;
+}
+.warning .last{
+	border: 1px #2BC1DF dashed;
+}
+.safe-list li{
+	background-color: white;
+}
+.safe-text2{
+	color: white;
+}
+.signing li{
+	background-color: white;
+	border-bottom: 1px #ccc solid;
+}
+.signing button{
+	background-color: white;
+	border: 1px #229FDC solid;
+	color: #229FDC;
+}
+.signing button a{
+	color: #229FDC;	
+}
+.signing-agreement{
+	background-color: white;
+	box-shadow: 1px 1px 5px rgba(0,0,0,.3);
+}
+
+/*		规则页面		*/
+.rule-list2{
+	background-color: #f2f6ff
+}
+.rule-list li span:first-child{
+	border:1px #d5dff0 solid ;
+}
+.rule-list li span:last-child{
+	border:1px #d5dff0 solid ;
+}
+.rule-list li:last-child span{
+	border-bottom:1px #d5dff0 solid ;	
+}
+.rule-title{
+	color: #2481B7;
+	background-color: #edf0f5;
+}
+.rule-title:before{
+	background-color: #2481B7;
+}
+
+
+/*		我的推广		*/
+.my-promote{
+	background-color: white;
+	border-bottom:1px solid #ccc;
+}
+.my-promote-line{
+	background-color:#eff1f6;
+}
+.my-promote-cont>li{
+	background-color: white;
+}
+.my-promote-cont>li:not(:last-child){
+	border-bottom:1px dashed #ccc
+}
+.my-promote-top{
+	background-color: white;
+}
+.my-promote-top button{
+	color: white;
+}
+.my-promote-top div:not(:first-child){
+	border-bottom: 1px #ccc solid;
+}
+.my-promote-top div:nth-child(2){
+	background-color: white;
+	border-bottom: 1px #ccc solid;
+}
+.my-promote-top div:nth-child(2) input{
+	border-bottom: 1px solid #ccc;
+}
+.my-promote-date{
+	background: white; 
+	color: #333; 
+}
+
+/* 		我的银行卡		 */
+.my-card{
+	background-color: white;
+	border-bottom: 1px #ccc solid;
+}
+.profile-cards li{
+			background-color: white;
+			box-shadow: 0 1px 5px rgba(0,0,0,.2);
+		}
+		.profile-card em{
+			color:#EAEAEA;
+		}
+
+

@@ -1,0 +1,35 @@
+/*共通部分*/
+.ui-datepicker {
+    z-index: 9999 !important;
+}
+a:hover {
+    text-decoration: none;
+}
+.parentLink {
+    color: #E3E;
+}
+/*表单样式定制*/
+form .row {
+    margin: 15px -15px;
+}
+form .formControls div label {
+    width: 24%;
+    display: inline-block;
+}
+form .help-block {
+    color: #C33;
+}
+form .form-label {
+    font-weight: bold;
+}
+form .select-box {
+    background: white;
+}
+form .hint-role {
+    left: 2px;
+    top: -3px;
+    color: #5C6;
+    z-index: -1;
+    font-size: 14px;
+    position: absolute;
+}

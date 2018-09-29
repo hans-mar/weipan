@@ -1,0 +1,201 @@
+@charset "utf-8";
+/* CSS Document */
+select{-webkit-appearance: none; outline:none;-moz-appearance: none; -o-appearance: none; appearance: none;}
+ /**/
+ body{ overflow:auto;background:#191919;}
+ .mg_b{ margin-bottom:10px;}
+ .bg{ background:#191919;}
+ .logo_img
+ { 
+    width: 106px;
+    height: 92px;
+    margin:55px auto;
+}
+ .logo_img img{ width:100%; height:100%;}
+ 
+ 
+ /*input*/
+ .login_input{ width:85%; margin:0 auto;}
+ .login_type_ls {
+    padding-left: 35px;
+}
+.type_box {
+    width: auto;
+    height: auto;
+    position: relative;
+    
+}
+.type_name {
+    width: 34px;
+    position: absolute;
+    left: 0;
+	color:#fff;
+    top: 10px;
+    text-align: center;
+    line-height: 22px;
+    position: absolute;
+}
+.input_box {
+    width: 100%;
+	/*border-bottom:1px solid #a0a0a0;*/
+}
+.input_box input {
+    width: 100%;
+    height: 42px;
+    padding: 0 0 0 0px;
+    color: #a0a0a0;
+    font-size: 14px;
+    border: none;
+	background:none;
+}
+.field-user-rememberme{float: right;}
+input.submit {
+    background: #e6262e;
+    border: none;
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 1.2em;
+    color: #fff;
+    border-radius: 25px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.input_box input:focus,.login_btn button:focus{outline: none;}
+.input_box a{ line-height:42px; color:#fff;}
+.login_input span{ color:#ccc;}
+.login_btn{ width:70%; margin:60px auto;}
+.login_btn button{background:#e6262e; border:none; width:100%; padding:10px 0px; font-size:1.2em; color:#fff; border-radius:25px;}
+.submitBtn{background:#e6262e; border:none; width:70%; margin:20px auto;padding:10px 0px; font-size:1.2em; color:#fff; border-radius:25px; text-align: center;
+}
+/*reg*/
+.tx_img{ width:90px; height:90px; border:2px solid #fff; border-radius:50%; margin:30px auto;overflow:hidden;}
+.tx_img img{ width:100%; height:100%; }
+.reg_btn{ width:70%; margin:25px auto;}
+.reg_btn button{background:#e6262e; border:none; width:100%; padding:10px 0px; font-size:1.2em; color:#fff; border-radius:25px;}
+.reg_btn button:focus{outline: none;}
+/*liqudation*/
+.liq_font{ color:#a8a8a8;}
+.liq_box{ width:100%; margin:0 auto 10px;}
+.liq_main{ width:100%; background:#303030; overflow:hidden;}
+.liq_box_hx{ border-bottom:1px solid #191919; height:50px; color:#fff;line-height:50px;}
+.liq_btn{ width:90%; margin:10px auto 50px;}
+.liq_btn button{background:#e6262e; border:none; width:100%; padding:10px 0px; font-size:1em; color:#fff; border-radius:25px;}
+.liq_btn button:focus{border: none;outline: none;}
+.liq_tx{font-size:0.8em;overflow:hidden}
+.rem_16{ font-size:1.6rem;}
+.liq_span span{ margin-left:5px;}
+.liq_border{ border-right:1px solid #191919;}
+.liq_borders select{ display:inline-block;display: inline-block;
+       width:58%;
+    height: 40px;
+    border: none;
+    background: #303030;
+    padding: 0px 10px;
+
+    color: #fff;
+    border-color:#303030;
+	box-shadow:none;}
+.liq_red{ color:#e6262e; position:relative;}
+.liq_green{ color:green;}
+.liq_red span{ position:absolute; top:2px;}
+/*detail*/
+.detail_main{ width:100%; background:#303030; overflow:hidden;border-top:1px solid #191919;}
+
+.detail_box_hx{ width:95%; margin:0 auto;  height:50px;color:#fff;}
+.left_img{ 
+width:13%;
+float:left;
+height:50px; 
+display: table-cell;
+ vertical-align:middle;line-height:50px;}
+ .right_text{width:87%; float:right;}
+.left_img img{vertical-align:middle;  width:38px; height:38px; }
+.detail_text{ padding-top:5px;}
+.tot{width:100%; }
+.yellow{color:#fadb0b;}
+/*jxmx*/
+.jymx_box{ border-bottom: 1px solid #191919; height: 40px;color: #fff;line-height: 40px;}
+.jymx_bor{ border-bottom:1px solid #303030; }
+.jymx_top{ border-top:1px solid #303030; }
+.box_bor{border-left:1px solid #303030; border-right:1px solid #303030;}
+.red{ color:#e6262e;}
+.jymx_text{ padding:15px 0px;}
+.jymx_time{ padding:10px 0px; line-height:40px;}
+.jymx_main{ width:100%;}
+.jymx_page{ margin:10px 0px 50px 0px;}
+/*money*/
+.money_btn{width: 85%;margin: 30px auto 0;}
+.money_btn button{background:#e6262e; border:none; width:100%; padding:10px 0px; font-size:1.2em; color:#fff; border-radius:10px;}
+.money_btn button:focus{outline: none;}
+.tx_text{ margin:15px auto; font-weight:bold;letter-spacing:2px;}
+.tx_input{  overflow:hidden;}
+.tx_input input,select{ margin-bottom:5px;width: 100%;outline: none; border: none;}
+.tx_input select{ width: 100%;color: #999;border:none;}
+.tx_input font{ width:100%; display:block; font-size:13px; padding-top:5px; color:#999;/*border-top:1px solid #e6262e; margin-bottom:20px;*/}
+.xiabiao{position: absolute;
+    right: 17px;
+    top: 1px;
+    width:10%;
+    text-align: center;
+    background-color: #fff;}
+.new_input{ width:70% !important;}
+.yzm{padding-bottom:5px;}
+.yzm a{ color:#999;padding: 10px;float: right;}
+.gain input{border: 1px solid #ccc;}    
+.mobilecontrol input{background: #fff !important;    margin-bottom: 15px;}
+
+
+/*recharge*/
+.tx_text img{ margin:-4px 5px 0px 0px;} 
+.mar_15{ margin-bottom:15px;}
+.recharge_btn{ width:100%; margin:10px 0 20px 0;}
+.recharge_btn button{background:#e6262e; border:none; width:100%; padding:10px 0px; font-size:1.2em; color:#fff; border-radius:25px;}
+.recharge_btn button:focus{outline: none;}
+.inputbank{    padding: 0 0 10px 0;
+    border-bottom: 1px solid #cecece !important;    color: #333;}
+
+.btn_re{ width:30%; float:left;} 
+.btn_center{ margin:0% 5%;}
+.group_btn{ width:100%; margin:0 auto;}
+.btn_money{color:red;margin-bottom:5px;text-decoration:none;border:1px solid red; padding:5px; text-align:center; border-radius:18px; } 
+.on:hover{ text-decoration:none; color:#fff;}  
+.btn_money:hover{text-decoration:none;}
+.on{ background:#e6262e; color:#fff;}
+.pay_style{ margin-bottom:15px; }
+.pay_style span{ display:inline-block; font-size:16px; font-weight:bold;  margin:0px 5px;}
+.remain{ margin-bottom:15px; color:#6e68fd;}
+.form-control-style{width: 100%;}
+.form-control-style:focus{border:none;outline: none;}
+/*交易记录*/
+
+.styled-select i{position: absolute;
+    top: 0;
+    right: 9px;}
+.new-input{width: 70% !important;}
+.btnjian,.btnjia{cursor: pointer;}
+
+/* 遮罩层开始 */
+.transmask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index:9999 !important;
+    background-color: rgba(238,238,238,0.8);
+}
+.transmask .infotips{
+    position: absolute;
+    top:50%;
+    left:50%;
+    width: 200px;
+    height:50px;
+    font-size: 16px;
+    margin-left:-100px;
+    margin-top:-25px;
+    line-height: 28px;
+    text-align: center;
+    color:#000;
+}
+/* 遮罩层结束 */

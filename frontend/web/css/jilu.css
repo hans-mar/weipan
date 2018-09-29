@@ -1,0 +1,67 @@
+@charset "utf-8";
+body{background-color:#f2f2f2}
+.rec_content{background-color:#FFF;padding:0 6px}
+#bean_list .keyvalue{width:60%;white-space:nowrap}#bean_list .keyvalue:first-child{width:40%}#bean_list ul{padding:5px 0}
+#bean_list li{padding:5px 0;color:#666;font-size:12px;line-height:25px;border-bottom:1px solid #eee}
+#bean_list .title{margin-left:-6px}.earn-wrap{padding:6px 0 12px}.earn-wrap .dearn{border-radius:4px;padding:5px;margin-right:5px;color:#fff;font-size:14px}
+.earn-wrap.earn-zorn .dearn{background-color:#f39800}.earn-wrap.earn-up .dearn{background-color:#e63234}.earn-wrap.earn-down .dearn{background-color:#1eb83f}
+.earn-wrap.earn-zorn .profit{color:#f39800;font-size:14px}.earn-wrap.earn-up .profit{color:#e63234;font-size:14px}
+.earn-wrap.earn-down .profit{color:#1eb83f;font-size:14px}.deta_more{text-align:center;padding:5% 0;color:#666;font-size:14px}
+.deta_more a{color:#666;font-size:14px}.deta_more img{width:55px;height:14px;vertical-align:top;margin-top:1px}
+@media all and (min-width:350px){#bean_list li{padding:5px 0;color:#666;font-size:14px;line-height:25px;border-bottom:1px solid #eee}}
+
+.charge-header {
+    color: #757272;
+    padding: 12px 10px;
+    text-align: center;
+    font-size: 1.4em;
+	background: #fff;
+}
+.charge-header span{
+	margin-left:-40px;
+}
+
+.addMany{
+    margin-top: 30px;
+}
+#loadMore {
+    background: #d80707;
+    color: #fff;
+    padding: 7px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.container{
+    height:68px;
+    background: #fff;
+    padding:10px 15px 2px;
+    border-bottom: 1px solid #ded8d8;
+    margin-top: 20px;
+}
+.list{
+    width:70%;
+    float: left;
+    color:#999;
+    line-height: 30px;
+}
+.lisch{
+    width: 25%;
+    float: left;
+    line-height: 24px;
+}
+.lisch .cz{
+    color:#fff;
+    background: #ff9b00;
+    padding: 3px 5px;
+    border-radius:3px;
+}
+.lisch .fy{
+    color:#999;
+    border:1px solid #999;    
+    font-size: 12px;
+    padding: 1px 4px;
+}
+.outMoney .container .list:first-child{
+    width: 30% !important;
+}
+

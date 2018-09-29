@@ -1,0 +1,18 @@
+2018-03-25 13:41:29 [GET][http://api.wsyii.com/][127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\www\yiidianweipan\g\vendor\yiisoft\yii2\web\Request.php:189
+Stack trace:
+#0 D:\www\yiidianweipan\g\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\www\yiidianweipan\g\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\www\yiidianweipan\g\api\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2018-03-25 13:41:29 [GET][http://api.wsyii.com/favicon.ico][127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\www\yiidianweipan\g\vendor\yiisoft\yii2\web\Request.php:189
+Stack trace:
+#0 D:\www\yiidianweipan\g\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\www\yiidianweipan\g\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\www\yiidianweipan\g\api\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2018-03-25 13:41:31 [GET][http://api.wsyii.com/][127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\www\yiidianweipan\g\vendor\yiisoft\yii2\web\Request.php:189
+Stack trace:
+#0 D:\www\yiidianweipan\g\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\www\yiidianweipan\g\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\www\yiidianweipan\g\api\web\index.php(18): yii\base\Application->run()
+#3 {main}

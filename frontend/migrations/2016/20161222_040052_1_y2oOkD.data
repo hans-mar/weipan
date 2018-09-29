@@ -1,0 +1,185 @@
+a:5:{s:4:"user";s:2:"wq";s:3:"sql";s:12282:"/*
+Navicat MySQL Data Transfer
+
+Source Server         : 夕秀软件
+Source Server Version : 50536
+Source Host           : 59.110.21.217:3306
+Source Database       : x10
+
+Target Server Type    : MYSQL
+Target Server Version : 50536
+File Encoding         : 65001
+
+Date: 2016-12-22 11:58:27
+*/
+
+SET FOREIGN_KEY_CHECKS=0;
+
+-- ----------------------------
+-- Table structure for data_all
+-- ----------------------------
+DROP TABLE IF EXISTS `data_all`;
+CREATE TABLE `data_all` (
+  `name` varchar(20) NOT NULL COMMENT '产品名称',
+  `price` varchar(20) DEFAULT '' COMMENT '当前价格',
+  `time` datetime DEFAULT NULL COMMENT '当前时间',
+  `diff` decimal(11,2) DEFAULT '0.00' COMMENT '涨跌值',
+  `diff_rate` varchar(20) DEFAULT '0.00' COMMENT '涨跌%',
+  `open` decimal(11,2) DEFAULT NULL,
+  `high` decimal(11,2) DEFAULT NULL,
+  `low` decimal(11,2) DEFAULT NULL,
+  `close` decimal(11,2) DEFAULT NULL,
+  PRIMARY KEY (`name`),
+  UNIQUE KEY `name` (`name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='所有产品数据汇总表';
+
+-- ----------------------------
+-- Records of data_all
+-- ----------------------------
+INSERT INTO `data_all` VALUES ('a50', '9849.00', '2016-10-26 17:48:35', '-37.00', '0.00', null, null, null, null);
+INSERT INTO `data_all` VALUES ('ag', '3558', '2016-12-22 11:57:41', '-4.00', '-0.11%', '3560.00', '3578.00', '3551.00', '3558.00');
+INSERT INTO `data_all` VALUES ('cl', '48.45', '2016-10-31 19:18:04', '-0.28', '0.00', null, null, null, null);
+INSERT INTO `data_all` VALUES ('conc', '52.62', '2016-12-22 11:58:30', '0.11', '0.21%', '52.52', '52.71', '52.51', '52.62');
+INSERT INTO `data_all` VALUES ('cu0', '45814', '2016-12-22 11:57:52', '-74.00', '-0.16%', '45896.00', '46045.00', '45814.00', '45888.00');
+INSERT INTO `data_all` VALUES ('cu1610', '36580.00', '2016-09-02 13:54:33', '130.00', '0.00', null, null, null, null);
+INSERT INTO `data_all` VALUES ('gc', '1274.9', '2016-10-31 19:18:03', '-1.90', '0.00', null, null, null, null);
+INSERT INTO `data_all` VALUES ('hkhsi', '23374.40', '2016-10-20 16:10:22', '69.43', '0.00', null, null, null, null);
+INSERT INTO `data_all` VALUES ('ic1609', '6451.80', '2016-10-21 15:00:15', '-47.20', '-1.00', null, null, null, null);
+INSERT INTO `data_all` VALUES ('if1609', '3319.20', '2016-10-21 15:00:15', '1.80', '0.00', null, null, null, null);
+INSERT INTO `data_all` VALUES ('ni1609', '78450.00', '2016-09-02 13:54:30', '1360.00', '2.00', null, null, null, null);
+INSERT INTO `data_all` VALUES ('oil', '476.33', '2016-12-02 11:07:27', '0.28', '0.06%', '477.09', '479.01', '475.29', '476.05');
+INSERT INTO `data_all` VALUES ('rb1610', '2255.00', '2016-10-12 01:42:34', '50.00', '2.00', null, null, null, null);
+INSERT INTO `data_all` VALUES ('rm1609', '2329.00', '2016-09-02 13:54:33', '32.00', '1.00', null, null, null, null);
+INSERT INTO `data_all` VALUES ('ru1609', '10305.00', '2016-09-02 13:54:30', '190.00', '2.00', null, null, null, null);
+INSERT INTO `data_all` VALUES ('sh000001', '3131.76', '2016-12-22 11:35:03', '-5.67', '-0.18', '3132.16', '3141.37', '3128.57', '3137.43');
+INSERT INTO `data_all` VALUES ('xag', '177.58', '2016-10-26 18:11:45', '0.03', '0.00', null, null, null, null);
+INSERT INTO `data_all` VALUES ('xhn', '7500', '2016-12-22 11:39:59', '-0.14', '-0.19%', '7552.00', '7562.00', '7489.00', '7500.00');
+INSERT INTO `data_all` VALUES ('xpt', '961.25', '2016-10-26 18:11:45', '-2.54', '0.00', null, null, null, null);
+
+-- ----------------------------
+-- Table structure for product
+-- ----------------------------
+DROP TABLE IF EXISTS `product`;
+CREATE TABLE `product` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `table_name` varchar(50) NOT NULL COMMENT '产品对应表名',
+  `name` varchar(50) NOT NULL COMMENT '产品名称',
+  `deposit` decimal(11,2) NOT NULL COMMENT '保证金',
+  `one_profit` int(11) NOT NULL COMMENT '一手盈亏',
+  `desc` varchar(50) DEFAULT '' COMMENT '产品描述',
+  `fee` decimal(11,2) DEFAULT '0.00' COMMENT '手续费',
+  `trade_time` text COMMENT '交易时间',
+  `is_trade` tinyint(4) DEFAULT '1' COMMENT '允许交易',
+  `rest_day` varchar(255) DEFAULT '' COMMENT '休市日',
+  `play_rule` text COMMENT '玩法规则',
+  `force_sell` tinyint(4) DEFAULT '1' COMMENT '是否强制平仓：1是，-1否',
+  `currency` tinyint(4) DEFAULT '1' COMMENT '币种： 1人民币，2美元',
+  `hot` tinyint(4) DEFAULT '1' COMMENT '是否是热门期货：1是，-1不是',
+  `type` tinyint(4) DEFAULT '1' COMMENT '期货类别：1国内，2国外',
+  `on_sale` tinyint(4) DEFAULT '1' COMMENT '上架状态：1上架，-1下架',
+  `state` tinyint(4) DEFAULT '1' COMMENT '状态',
+  PRIMARY KEY (`id`),
+  KEY `name` (`table_name`)
+) ENGINE=MyISAM AUTO_INCREMENT=19 DEFAULT CHARSET=utf8 COMMENT='交易产品表';
+
+-- ----------------------------
+-- Records of product
+-- ----------------------------
+INSERT INTO `product` VALUES ('1', 'oil', '原油', '0.00', '1000', '', '100.00', 'a:1:{i:0;a:2:{s:5:\"start\";s:5:\"06:00\";s:3:\"end\";s:5:\"05:14\";}}', '1', '', '', '1', '1', '1', '1', '-1', '-1');
+INSERT INTO `product` VALUES ('2', 'a50', '富时中国A50', '0.00', '5', '', '10.00', 'a:2:{i:0;a:2:{s:5:\"start\";s:5:\"09:00\";s:3:\"end\";s:5:\"15:55\";}i:1;a:2:{s:5:\"start\";s:5:\"16:40\";s:3:\"end\";s:5:\"23:59\";}}', '1', '', '', '1', '1', '10', '0', '2', '-1');
+INSERT INTO `product` VALUES ('3', 'ic1609', '天燃气', '0.00', '10', '', '99999.00', null, '1', '', '', '1', '2', '9', '0', '1', '-1');
+INSERT INTO `product` VALUES ('4', 'cu0', '铜', '0.00', '200', '', '200.00', 'a:1:{i:0;a:2:{s:5:\"start\";s:5:\"09:00\";s:3:\"end\";s:5:\"04:00\";}}', '1', '', '', '1', '1', '13', '0', '1', '1');
+INSERT INTO `product` VALUES ('5', 'ni1609', '沪镍', '0.00', '200', '', '99999.00', 'a:1:{i:0;a:2:{s:5:\"start\";s:5:\"15:00\";s:3:\"end\";s:5:\"16:30\";}}', '1', '', '', '1', '1', '8', '0', '2', '-1');
+INSERT INTO `product` VALUES ('6', 'if1609', '宝石', '0.00', '100', '', '99999.00', null, '1', '', '', '1', '1', '14', '0', '1', '-1');
+INSERT INTO `product` VALUES ('7', 'gc', '外汇', '0.00', '600', '', '200.00', 'a:1:{i:0;a:2:{s:5:\"start\";s:5:\"07:00\";s:3:\"end\";s:5:\"04:00\";}}', '1', '', '', '1', '1', '3', '1', '-1', '-1');
+INSERT INTO `product` VALUES ('8', 'hkhsi', '恒生指数', '0.00', '50', '', '200.00', 'a:2:{i:0;a:2:{s:5:\"start\";s:5:\"09:30\";s:3:\"end\";s:5:\"12:00\";}i:1;a:2:{s:5:\"start\";s:5:\"13:00\";s:3:\"end\";s:5:\"15:59\";}}', '1', '', '', '1', '2', '12', '1', '2', '-1');
+INSERT INTO `product` VALUES ('9', 'ag', '白银', '0.00', '10', '', '100.00', 'a:1:{i:0;a:2:{s:5:\"start\";s:5:\"09:00\";s:3:\"end\";s:5:\"04:00\";}}', '1', '', '', '1', '1', '1', '1', '1', '1');
+INSERT INTO `product` VALUES ('10', 'rb1610', '天然气单位', '0.00', '300', '', '99999.00', 'a:1:{i:0;a:2:{s:5:\"start\";s:5:\"07:00\";s:3:\"end\";s:5:\"04:00\";}}', '1', '', '', '1', '1', '2', '0', '-1', '-1');
+INSERT INTO `product` VALUES ('11', 'rm1609', '菜粕', '0.00', '500', '', '99999.00', 'a:1:{i:0;a:2:{s:5:\"start\";s:5:\"13:00\";s:3:\"end\";s:5:\"14:30\";}}', '1', '', '', '1', '1', '7', '0', '2', '-1');
+INSERT INTO `product` VALUES ('12', 'ru1609', '橡胶', '0.00', '400', '', '99999.00', null, '1', '', '', '1', '1', '9', '0', '2', '-1');
+INSERT INTO `product` VALUES ('13', 'hkhsi', '迷你恒生', '0.00', '10', '', '10.00', 'a:2:{i:0;a:2:{s:5:\"start\";s:5:\"09:30\";s:3:\"end\";s:5:\"12:00\";}i:1;a:2:{s:5:\"start\";s:5:\"13:00\";s:3:\"end\";s:5:\"15:59\";}}', '1', '', '', '1', '1', '4', '1', '2', '-1');
+INSERT INTO `product` VALUES ('14', 'xag', '伦敦银', '0.00', '10', '', '10.00', null, '1', '', '', '1', '1', '1', '1', '2', '-1');
+INSERT INTO `product` VALUES ('15', 'xpt', '伦敦铂金', '0.00', '10', '', '10.00', null, '1', '', '', '1', '1', '1', '1', '2', '-1');
+INSERT INTO `product` VALUES ('16', 'sh000001', 'JH上证', '100.00', '1', '', '0.00', 'a:2:{i:0;a:2:{s:5:\"start\";s:5:\"09:30\";s:3:\"end\";s:5:\"11:30\";}i:1;a:2:{s:5:\"start\";s:5:\"13:00\";s:3:\"end\";s:5:\"15:00\";}}', '1', '', '', '1', '1', '1', '1', '-1', '-1');
+INSERT INTO `product` VALUES ('17', 'xhn', 'JH沥青', '0.00', '10', 'xhn', '10.00', 'a:1:{i:0;a:2:{s:5:\"start\";s:5:\"08:00\";s:3:\"end\";s:5:\"04:00\";}}', '1', '', '', '1', '1', '1', '1', '1', '-1');
+INSERT INTO `product` VALUES ('18', 'conc', '原油', '0.00', '0', '', '0.00', 'a:1:{i:0;a:2:{s:5:\"start\";s:5:\"09:00\";s:3:\"end\";s:5:\"04:00\";}}', '1', '', null, '1', '1', '1', '1', '1', '1');
+
+-- ----------------------------
+-- Table structure for product_price
+-- ----------------------------
+DROP TABLE IF EXISTS `product_price`;
+CREATE TABLE `product_price` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `product_id` int(11) NOT NULL,
+  `deposit` decimal(11,2) NOT NULL COMMENT '保证金',
+  `one_profit` decimal(11,2) NOT NULL COMMENT '一手盈亏',
+  `fee` decimal(11,1) DEFAULT '0.0' COMMENT '手续费',
+  `max_hand` int(11) DEFAULT '0' COMMENT '最大手数',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=30 DEFAULT CHARSET=utf8 COMMENT='产品价格拓展表';
+
+-- ----------------------------
+-- Records of product_price
+-- ----------------------------
+INSERT INTO `product_price` VALUES ('2', '1', '10.00', '5.00', '15.0', '10');
+INSERT INTO `product_price` VALUES ('3', '1', '100.00', '7.00', '15.0', '10');
+INSERT INTO `product_price` VALUES ('4', '1', '200.00', '10.00', '15.0', '10');
+INSERT INTO `product_price` VALUES ('6', '4', '10.00', '3.00', '25.0', '10');
+INSERT INTO `product_price` VALUES ('7', '4', '100.00', '3.00', '25.0', '10');
+INSERT INTO `product_price` VALUES ('8', '4', '200.00', '5.00', '22.0', '10');
+INSERT INTO `product_price` VALUES ('10', '9', '10.00', '4.00', '25.0', '5');
+INSERT INTO `product_price` VALUES ('11', '9', '100.00', '4.00', '25.0', '5');
+INSERT INTO `product_price` VALUES ('12', '9', '200.00', '6.00', '22.0', '5');
+INSERT INTO `product_price` VALUES ('13', '4', '500.00', '5.00', '22.0', '10');
+INSERT INTO `product_price` VALUES ('14', '4', '1000.00', '7.00', '20.0', '10');
+INSERT INTO `product_price` VALUES ('15', '16', '100.00', '300.00', '25.0', '5');
+INSERT INTO `product_price` VALUES ('16', '16', '500.00', '500.00', '25.0', '5');
+INSERT INTO `product_price` VALUES ('17', '16', '1000.00', '1000.00', '22.0', '5');
+INSERT INTO `product_price` VALUES ('18', '16', '2000.00', '1000.00', '22.0', '5');
+INSERT INTO `product_price` VALUES ('19', '16', '4000.00', '2000.00', '20.0', '5');
+INSERT INTO `product_price` VALUES ('20', '9', '500.00', '6.00', '22.0', '5');
+INSERT INTO `product_price` VALUES ('21', '9', '1000.00', '10.00', '20.0', '5');
+INSERT INTO `product_price` VALUES ('22', '17', '10.00', '6.00', '25.0', '5');
+INSERT INTO `product_price` VALUES ('23', '17', '100.00', '6.00', '25.0', '5');
+INSERT INTO `product_price` VALUES ('24', '17', '200.00', '10.00', '22.0', '5');
+INSERT INTO `product_price` VALUES ('25', '17', '500.00', '10.00', '22.0', '5');
+INSERT INTO `product_price` VALUES ('26', '17', '1000.00', '20.00', '20.0', '5');
+INSERT INTO `product_price` VALUES ('27', '18', '10.00', '1.00', '25.0', '10');
+INSERT INTO `product_price` VALUES ('28', '18', '100.00', '2.00', '22.0', '10');
+INSERT INTO `product_price` VALUES ('29', '18', '1000.00', '3.00', '20.0', '10');
+
+-- ----------------------------
+-- Table structure for product_price
+-- ----------------------------
+DROP TABLE IF EXISTS `data_conc`;
+CREATE TABLE `data_conc` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `price` varchar(30) DEFAULT NULL,
+  `time` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `time` (`time`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Table structure for product_price
+-- ----------------------------
+DROP TABLE IF EXISTS `data_cu0`;
+CREATE TABLE `data_cu0` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `price` varchar(30) DEFAULT NULL,
+  `time` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `time` (`time`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Table structure for product_price
+-- ----------------------------
+DROP TABLE IF EXISTS `data_ag`;
+CREATE TABLE `data_ag` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `price` varchar(30) DEFAULT NULL,
+  `time` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `time` (`time`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;";s:4:"desc";s:8:"data_all";s:7:"warning";a:1:{i:0;s:4:"DROP";}s:6:"delete";b:1;}

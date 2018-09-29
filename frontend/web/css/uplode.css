@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+a:focus, a:hover {
+    text-decoration: none;
+}
+.pay_box{ margin-bottom:40px;}
+.title_bg{ background:#f3f3f3;}
+.pay_title{ font-weight:bold; font-size:16px; padding:5px 0px;}
+.footer_bg{ background:#e02e2c; padding:10px 0px; color:#fff;}
+.pay_text{ font-size:12px; color:#666; margin-bottom:10px;}
+.login_type_ls {
+padding-left: 35px;
+padding-bottom:5px;
+
+}
+.bor{border-bottom:1px solid red;}
+.type_box {
+width: auto;
+height: auto;
+position: relative;
+margin: 0 14px 15px;
+   
+}
+.type_box_new {
+width: auto;
+height: auto;
+position: relative;
+margin: 0 14px 5px;
+   
+}
+.type_name {
+width:30px;
+position: absolute;
+left: 0;
+text-align: center;
+line-height: 22px;
+position: absolute;
+top:-5px;
+}
+.type_name i{ font-size:30px; color:#999; text-align:left;}
+.input_box {
+width: 100%;
+}
+.inputs_box{ padding:15px 0px 5px 0px;}
+
+.input_box input{ border:none;}
+.rig_photo {
+position: absolute;
+right: 0px;
+top: -10px;
+}
+.rig_photo_new {
+position: absolute;
+right: 0px;
+top: -15px;
+}
+
+.photo {
+width: 30px;
+height: 30px;
+border-radius: 50%;
+border: 1px solid #e02e2c;
+position: relative;
+}
+.photo i {
+position: absolute;
+left: 20%;
+top: 12%;
+color: #e02e2c;
+}
+.input_box label{ color:#999;}
+.name_input .input_del{ border:1px solid #e02e2c;  width:100%; margin-bottom:10px; border-radius:18px; height:40px;}
+.input_del input{ border:none;    padding: 0;padding-left:10px; line-height:38px; background:none; font-size:1.2rem; width:100%} 
+.input_del input:focus{outline: none;}
+.space{ border-top:1px solid #ccc; background:rgba(204, 204, 204, 0.4); padding:8px 15px;}
+.exit{ color:#e02e2c; font-size:28px;  }
+.space_new{ border-top:1px solid #ccc; background:rgba(204, 204, 204, 0.4); height:3px; margin-bottom:5px;}
+.pup_text{ font-size:13px; color:#000; font-weight:bold;}

@@ -1,0 +1,71 @@
+<?php $this->regCss('iconfont/iconfont.css') ?>
+<?php $this->regCss('mine.css') ?>
+<?php $this->regCss('common.css') ?>
+<style type="text/css">body{background:#fff;}</style>
+
+<body>
+
+<style type="text/css">
+	body{
+		margin: 0;
+		padding: 0;
+	}
+	.demo{
+		margin:0 auto;
+		text-align: center;
+	}
+	.demo .font_qr{
+		width: 20rem;
+		height: 1.5rem;
+		color: #fff;
+		font-size: 15px;
+		font-weight: bold;
+		line-height:1.5rem;
+		border-radius: 30px;
+		text-align: center;
+		margin: 0 auto;
+		background-color: #00AAEE;
+		margin-top:0.5rem;
+        
+	}
+	#font{
+        margin-top:4rem;
+	}
+	.demo img{
+		text-align: center;
+		background-color: #00AAEE;
+		width:20rem;
+	}
+    .demo{
+        margin-top:2rem;
+    }
+    .prompt{
+        color:#050505;
+		text-align: center;
+        margin-top:1.5rem;
+    }
+    .prompt span{
+        font-size:1rem;
+        font-weight:bold
+        
+    }
+</style>
+	
+	<div id="main">
+        <div class='prompt'>
+            <span>请用长按识别以下二维码进行支付</span>
+        </div>
+	   <div class="demo">
+            
+			<div id='img'>
+                <img id='imgOne' src='/images/codepay.png'/>
+            </div>    
+            <div id='font'>
+                <div class="font_qr">李璟升</div>
+                <div class="font_qr">招商银行</div>
+                <div class="font_qr">6214868776166166</div>
+            </div>
+	   </div>
+	</div
+
+        

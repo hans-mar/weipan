@@ -1,0 +1,49 @@
+2018-01-18 20:12:00
+开始接
+ 
+ 
+ 2018-01-18 20:12:00
+{"data":{"orderType":"interface","tradeNo":"B18P2018011817343865234731","signType":"MD5","charset":"UTF-8","nonceStr":"20180118201200647o0Xb","outTradeNo":"10024699620180118173437","payMsg":"\u8ba2\u5355\u8fc7\u671f\uff0c\u5df2\u5173\u95ed","version":"1.0","sign":"06cf97fee59b22c2708e91653ef03ba3","totalFee":"4800.00","mchCode":"1513662781693","payStatus":"3","payType":"pay.alipay.native"},"message":"OK","status":"1"}
+ 
+ 
+ 2018-01-18 20:12:00
+验证签名
+ 
+ 
+ 2018-01-18 20:12:00
+验证签名ok
+ 
+ 
+ 2018-01-18 20:12:01
+开始接
+ 
+ 
+ 2018-01-18 20:12:01
+{"data":{"orderType":"interface","tradeNo":"B18P2018011817344055143298","signType":"MD5","charset":"UTF-8","nonceStr":"20180118201200799PgUH","outTradeNo":"10024677020180118173440","payMsg":"\u8ba2\u5355\u8fc7\u671f\uff0c\u5df2\u5173\u95ed","version":"1.0","sign":"3b604ebb578707280ca974d6e6307d60","totalFee":"4800.00","mchCode":"1513662781693","payStatus":"3","payType":"pay.alipay.native"},"message":"OK","status":"1"}
+ 
+ 
+ 2018-01-18 20:12:01
+验证签名
+ 
+ 
+ 2018-01-18 20:12:01
+验证签名ok
+ 
+ 
+ 2018-01-18 20:12:01
+开始接
+ 
+ 
+ 2018-01-18 20:12:01
+{"data":{"orderType":"interface","tradeNo":"B18P2018011817344213252495","signType":"MD5","charset":"UTF-8","nonceStr":"20180118201200957JxO6","outTradeNo":"10024695720180118173441","payMsg":"\u8ba2\u5355\u8fc7\u671f\uff0c\u5df2\u5173\u95ed","version":"1.0","sign":"978181c5988d5c7d2bc367443107d464","totalFee":"4800.00","mchCode":"1513662781693","payStatus":"3","payType":"pay.alipay.native"},"message":"OK","status":"1"}
+ 
+ 
+ 2018-01-18 20:12:01
+验证签名
+ 
+ 
+ 2018-01-18 20:12:01
+验证签名ok
+ 
+ 
+ 

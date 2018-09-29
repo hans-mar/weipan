@@ -1,0 +1,12 @@
+2018-03-25 13:41:29 [GET][http://api.wsyii.com/][127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: wizard
+2018-03-25 13:41:29 [GET][http://api.wsyii.com/][127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with common\modules\wizard\Module::bootstrap()
+2018-03-25 13:41:29 [GET][http://api.wsyii.com/][127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-03-25 13:41:29 [GET][http://api.wsyii.com/][127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\www\yiidianweipan\g\vendor\yiisoft\yii2\views\errorHandler\error.php
+2018-03-25 13:41:29 [GET][http://api.wsyii.com/favicon.ico][127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: wizard
+2018-03-25 13:41:29 [GET][http://api.wsyii.com/favicon.ico][127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with common\modules\wizard\Module::bootstrap()
+2018-03-25 13:41:29 [GET][http://api.wsyii.com/favicon.ico][127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-03-25 13:41:29 [GET][http://api.wsyii.com/favicon.ico][127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\www\yiidianweipan\g\vendor\yiisoft\yii2\views\errorHandler\error.php
+2018-03-25 13:41:31 [GET][http://api.wsyii.com/][127.0.0.1][-][-][trace][yii\base\Module::getModule] Loading module: wizard
+2018-03-25 13:41:31 [GET][http://api.wsyii.com/][127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with common\modules\wizard\Module::bootstrap()
+2018-03-25 13:41:31 [GET][http://api.wsyii.com/][127.0.0.1][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2018-03-25 13:41:31 [GET][http://api.wsyii.com/][127.0.0.1][-][-][trace][yii\base\View::renderFile] Rendering view file: D:\www\yiidianweipan\g\vendor\yiisoft\yii2\views\errorHandler\error.php

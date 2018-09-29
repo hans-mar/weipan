@@ -1,0 +1,17 @@
+2018-01-18 19:18:02
+开始接
+ 
+ 
+ 2018-01-18 19:18:02
+{"data":{"orderType":"interface","tradeNo":"B18P2018011816452400225024","signType":"MD5","charset":"UTF-8","nonceStr":"201801181918022160aem","outTradeNo":"10024627320180118164523","payMsg":"\u8ba2\u5355\u8fc7\u671f\uff0c\u5df2\u5173\u95ed","version":"1.0","sign":"e29313279e533cf039098e46d9906b44","totalFee":"4800.00","mchCode":"1513662781693","payStatus":"3","payType":"pay.alipay.native"},"message":"OK","status":"1"}
+ 
+ 
+ 2018-01-18 19:18:02
+验证签名
+ 
+ 
+ 2018-01-18 19:18:02
+验证签名ok
+ 
+ 
+ 

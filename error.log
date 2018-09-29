@@ -1,0 +1,553 @@
+2017/06/14 17:28:49 [error] 20029#0: *15438 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 101.226.68.200, server: x50.sinasinasohusohu.cn, request: "GET /admin HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/06/14 21:52:48 [error] 20029#0: *59156 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 101.226.66.173, server: x50.sinasinasohusohu.cn, request: "GET /admin HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/06/16 23:12:37 [error] 20029#0: *180373 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 61.151.226.202, server: x50.sinasinasohusohu.cn, request: "GET /user/pay HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/06/17 07:48:28 [error] 20029#0: *199189 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 117.185.27.114, server: x50.sinasinasohusohu.cn, request: "GET /admin HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/06/17 07:54:31 [error] 20029#0: *199583 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 180.163.2.118, server: x50.sinasinasohusohu.cn, request: "GET /admin HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/06/26 09:12:41 [error] 12788#0: *17179 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 101.226.66.181, server: x50.sinasinasohusohu.cn, request: "GET /admin HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/07/11 21:37:35 [error] 12788#0: *106775 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 101.226.33.206, server: x50.sinasinasohusohu.cn, request: "GET /admin HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/07/11 21:37:46 [error] 12788#0: *106806 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 180.163.2.119, server: x50.sinasinasohusohu.cn, request: "GET /admin/site/welcome HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/07/15 10:47:48 [error] 12788#0: *116190 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 101.226.64.177, server: x50.sinasinasohusohu.cn, request: "GET /admin HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/07/17 00:00:53 [error] 12788#0: *119187 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 115.239.212.138, server: x50.sinasinasohusohu.cn, request: "GET /admin/user/withdraw-list?User-Agent=Mozilla%2F5.0+%28Linux%3B+U%3B+Android+4.0.3%3B+zh-cn%3B+M032+Build%2FIML74K%29+UC+AppleWebKit%2F534.31+%28KHTML%2C+like+Gecko%29+Mobile+Safari%2F534.31%0A HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/08/02 14:50:30 [error] 12788#0: *179112 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 112.90.82.236, server: x50.sinasinasohusohu.cn, request: "GET /admin HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/08/02 14:51:06 [error] 12788#0: *179124 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 61.151.218.119, server: x50.sinasinasohusohu.cn, request: "GET /admin HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/08/05 17:54:54 [error] 12788#0: *180801 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 101.226.33.218, server: x50.sinasinasohusohu.cn, request: "GET /admin HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/08/05 18:03:41 [error] 12788#0: *180980 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 101.226.65.102, server: x50.sinasinasohusohu.cn, request: "GET /admin HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/08/06 12:20:13 [error] 12788#0: *181520 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 61.151.218.118, server: x50.sinasinasohusohu.cn, request: "GET /admin HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/08/07 23:17:53 [error] 12788#0: *183262 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 101.226.66.173, server: x50.sinasinasohusohu.cn, request: "GET /admin/site/welcome HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/08/07 23:18:26 [error] 12788#0: *183269 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 101.226.89.120, server: x50.sinasinasohusohu.cn, request: "GET /admin/record/deposit-list HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/08/07 23:18:31 [error] 12788#0: *183282 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 101.226.65.105, server: x50.sinasinasohusohu.cn, request: "GET /admin/admin/leader-list HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/08/07 23:18:40 [error] 12788#0: *183297 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 101.226.33.208, server: x50.sinasinasohusohu.cn, request: "GET /admin/retail/list HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/08/07 23:18:43 [error] 12788#0: *183310 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 101.226.33.238, server: x50.sinasinasohusohu.cn, request: "GET /admin/sale/manager-list HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/08/07 23:18:47 [error] 12788#0: *183327 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 101.226.89.116, server: x50.sinasinasohusohu.cn, request: "GET /admin/user/verify-manager HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/08/07 23:18:50 [error] 12788#0: *183329 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 61.151.228.22, server: x50.sinasinasohusohu.cn, request: "GET /admin/sale/manager-rebate-list HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/08/07 23:18:53 [error] 12788#0: *183338 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 101.226.66.192, server: x50.sinasinasohusohu.cn, request: "GET /admin/user/rebate-list HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/08/07 23:27:15 [error] 12788#0: *183420 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 101.226.102.97, server: x50.sinasinasohusohu.cn, request: "GET /admin/retail/list HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/08/09 20:17:46 [error] 12788#0: *186261 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 101.226.89.116, server: x50.sinasinasohusohu.cn, request: "GET /admin HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/08/09 20:17:47 [error] 12788#0: *186263 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 180.163.2.119, server: x50.sinasinasohusohu.cn, request: "GET /admin/site/welcome HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/08/12 22:33:45 [error] 12788#0: *208783 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 101.226.125.16, server: x50.sinasinasohusohu.cn, request: "GET /admin HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/08/12 22:34:10 [error] 12788#0: *208816 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 101.226.66.173, server: x50.sinasinasohusohu.cn, request: "GET /admin/risk/center HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/08/12 22:34:18 [error] 12788#0: *208829 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 101.226.66.174, server: x50.sinasinasohusohu.cn, request: "GET /admin/admin/leader-list HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/08/12 22:34:27 [error] 12788#0: *208846 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 101.226.33.218, server: x50.sinasinasohusohu.cn, request: "GET /admin/retail/list HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/08/12 22:34:30 [error] 12788#0: *208859 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 101.226.79.182, server: x50.sinasinasohusohu.cn, request: "GET /admin/sale/manager-list HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/08/12 22:34:36 [error] 12788#0: *208870 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 101.226.33.225, server: x50.sinasinasohusohu.cn, request: "GET /admin/sale/manager-rebate-list HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/08/12 22:35:28 [error] 12788#0: *208889 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 101.226.66.172, server: x50.sinasinasohusohu.cn, request: "GET /admin/user/list HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/08/12 22:35:31 [error] 12788#0: *208896 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 101.226.66.174, server: x50.sinasinasohusohu.cn, request: "GET /admin/user/position-list HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/08/12 22:35:39 [error] 12788#0: *208917 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 101.226.99.197, server: x50.sinasinasohusohu.cn, request: "GET /admin/user/charge-record-list HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/08/12 22:35:43 [error] 12788#0: *208898 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 101.226.64.177, server: x50.sinasinasohusohu.cn, request: "GET /admin/order/list HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/08/12 22:35:47 [error] 12788#0: *208942 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 101.226.66.192, server: x50.sinasinasohusohu.cn, request: "GET /admin/product/list HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/08/12 22:35:47 [error] 12788#0: *208944 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 101.226.33.205, server: x50.sinasinasohusohu.cn, request: "GET /admin/product/list HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/08/12 22:43:57 [error] 12788#0: *209020 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 180.163.2.118, server: x50.sinasinasohusohu.cn, request: "GET /admin/user/verify-manager HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/08/12 22:43:59 [error] 12788#0: *209022 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 123.151.64.201, server: x50.sinasinasohusohu.cn, request: "GET /admin/user/rebate-list HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/08/12 22:44:14 [error] 12788#0: *209033 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 140.207.124.105, server: x50.sinasinasohusohu.cn, request: "GET /admin/sale/manager-list HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/08/12 22:44:20 [error] 12788#0: *209036 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 101.226.33.204, server: x50.sinasinasohusohu.cn, request: "GET /admin/sale/manager-rebate-list HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/08/12 22:44:54 [error] 12788#0: *209038 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 101.226.66.193, server: x50.sinasinasohusohu.cn, request: "GET /admin/product/list HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/08/12 22:45:02 [error] 12788#0: *209040 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 101.226.125.111, server: x50.sinasinasohusohu.cn, request: "GET /admin/site/welcome HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/08/12 22:46:57 [error] 12788#0: *209072 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 61.151.226.191, server: x50.sinasinasohusohu.cn, request: "GET /admin/record/deposit-list HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/08/12 22:56:37 [error] 12788#0: *209078 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 101.226.125.111, server: x50.sinasinasohusohu.cn, request: "GET /admin/record/deposit-list HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"
+2017/08/13 14:54:29 [error] 12788#0: *212375 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x50/vendor/yiisoft/yii2/web/User.php:446
+Stack trace:
+#0 /phpstudy/www/x50/common/components/Module.php(51): yii\web\User->loginRequired()
+#1 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Controller.php(148): common\components\Module->beforeAction(Object(yii\base\InlineAction))
+#2 /phpstudy/www/x50/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#3 /phpstudy/www/x50/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('admin/site/erro...')
+#4 /phpstudy/www/x50/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#6 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message '需要登录' in /phpstudy/www/x" while reading upstream, client: 180.163.2.119, server: x50.sinasinasohusohu.cn, request: "GET /admin HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "x50.sinasinasohusohu.cn"

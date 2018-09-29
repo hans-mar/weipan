@@ -1,0 +1,149 @@
+<?php $this->regCss('geren.css') ?>
+<div class="personal">
+    <p class="charge-header"> <a href="javascript:window.history.back()" style="float: left;"><img src="/images/arrow-left.png" style="width:40px;"></a><span>充值</span></p>
+    <div class="boxflex boxflex1">
+        <div class="img-wrap"><img class="userimage" src="<?= u()->face ?>"></div>
+        <div class="box_flex_1">
+            <div class="p_zichan"><?= u()->nickname ?></div>
+        </div>
+    </div>
+    <?php $form = self::beginForm(['showLabel' => false, 'action' => url('user/pay/'), 'id' => 'payform']) ?>
+    <div class="boxflex1 mt10">
+        <div class="moneyhead">充值金额</div>
+        <div class="group_btn clearfloat">
+            <div class="btn_re">
+                <a class="btn_money active">50000</a>
+            </div>
+            <div class="btn_re btn_center">
+                <a class="btn_money">40000</a>
+            </div>
+            <div class="btn_re btn_center">
+                <a class="btn_money">30000</a>
+            </div>
+            <div class="btn_re">
+                <a class="btn_money">20000</a>
+            </div>
+            <div class="btn_re">
+                <a class="btn_money">10000</a>
+            </div>
+        </div>
+        <div class="group_btn group clearfloat">
+            <div class="btn_re">
+                <a class="btn_money">8000</a>
+            </div>
+            <div class="btn_re btn_center">
+                <a class="btn_money">5000</a>
+            </div>
+            <div class="btn_re btn_center">
+                <a class="btn_money">4000</a>
+            </div>
+            <div class="btn_re">
+                <a class="btn_money">3000</a>
+            </div>
+            
+        </div>
+		<div class="group_btn group clearfloat">
+            <div class="btn_re">
+                <a class="btn_money">2000</a>
+            </div>
+            <div class="btn_re btn_center">
+                <a class="btn_money">1000</a>
+            </div>
+           
+            <input type="hidden" id="amount" name="amount" value="49908.50">
+            <input type="hidden" id="type" name="type" value="2">
+        </div>
+    </div>
+<!--    <div class="boxflex1 mt10">-->
+<!--        <div class="moneyhead">充值金额</div>-->
+<!--    </div>-->
+<!-- 
+    <div class="boxflex1" style="border-top:none">
+        <img src="/images/icon-chat.png" />
+        <span>微信支付</span>
+        <input type="radio" name="pay" value="w" class="wx" style="float:right;padding: 5px 0;"/>
+    </div>
+    <div class="boxflex1" style="border-top:none">
+        <img src="/images/zfb.png" />
+        <span>支付宝支付</span>
+        <input type="radio" name="pay" value="z" class="wx" style="float:right;padding: 5px 0;"/>
+    </div>
+	-->
+	<!-- 
+	    <div class="boxflex1" style="border-top:none">
+        <img src="/images/hb.png" />
+        <span>华宝支付</span>
+        <input type="radio" name="pay" value="H" class="wx" id="hb" style="float:right;padding: 5px 0;"/>
+    </div>
+	-->
+    <div class="boxflex1" style="border-top:none">
+        <img src="/images/wangyin.png" />
+        <span>银联快捷</span>
+        <input type="radio" class="yl" name="pay" value="y" style="float:right;padding: 5px 0;"/>
+        <select name="bankcode" class="bankcode" hidden="hidden">
+            <option value ="0">请选择银行</option>
+            <option value ="102">工商银行</option>
+            <option value ="103">农业银行</option>
+            <option value ="105">建设银行</option>
+            <option value ="303">光大银行</option>
+            <option value ="305">民生银行</option>
+            <option value ="310">浦发银行</option>
+            <option value ="313">北京银行</option>
+            <option value ="325">上海银行</option>
+            <option value ="403">邮储银行</option>
+
+        </select>
+    </div>
+
+
+
+
+    <!-- <div class="recharge-btn mt10 payMoney">立即充值</div> -->
+
+<!--    <img src="/images/icon-chat.png" />微信  <-->
+<!--    <br />-->
+<!--    <img src="/images/icon-chat.png" />支付宝  <input type="radio" name="pay" value="z" />-->
+<!--    < class="recharge-btn mt10" id="payBtn" name="wx" value="1">微信充值</>-->
+    <div class="recharge-btn mt10" id="payBtn" name="wx" value="1">立即充值</div>
+<!--    <div class="recharge-btn mt10" id="payBtn" name="zfb" value="2">支付宝充值</div>-->
+    <?php self::endForm() ?>
+</div>
+
+<script type="text/javascript">
+    $(".btn_money").click(function(){
+        $('.clearfloat .btn_money').removeClass("active");
+        $('#amount').val($(this).html());
+        $(this).addClass("active");
+    });
+    $(".yl").click(function(){
+        $('.bankcode').removeAttr('hidden');
+		$("#type").val(2);
+    });
+    $(".wx").click(function(){
+        $('.bankcode').attr("hidden","hidden");
+    });
+	$("#hb").click(function(){
+        $('.bankcode').attr("hidden","hidden");
+		$("#type").val(6);
+    });
+	
+    $('#payBtn').on('click', function(){
+		var type = $("#type").val();
+		if(type == 6){
+			$("#payform").submit();
+		}else{
+			var bankcode =  $('.bankcode').val();
+			
+			if(bankcode=='0'){
+				
+				alert('请选择银行');
+				return false;
+			}
+			$("#payform").submit();
+			
+			
+		}
+			
+
+    });
+</script>

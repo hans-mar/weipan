@@ -1,0 +1,24 @@
+body,div{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #E63234;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+#tip{
+    background-color: #E63234;
+    width: calc(100% - 20px);
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    vertical-align: middle;
+    margin-top: calc(100% - 40px);
+}

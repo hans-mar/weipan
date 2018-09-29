@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.linkage-ul {
+    list-style: none;
+    font-size: 14px;
+}
+.linkage-header p {
+    display: table-cell;
+    border-bottom: 1px solid #DDD;
+}
+.linkage-ul > li > div:hover {
+    background: #ECFBD4;
+}
+.linkage-ul > li > div {
+    display: table;
+}
+.linkage-ul > li > div p {
+    display: table-cell;
+    border-bottom: 1px solid #DDD;
+    line-height: 30px;
+}
+.linkage-ul > li > div p:first-child > .linkage-fork:before {
+    content: url(../images/linkage_join.gif);
+}
+.linkage-ul > li:last-child > div p:first-child > .linkage-fork:before {
+    content: url(../images/linkage_end.gif);
+}
+.linkage-header p, .linkage-row p:not(:first-child), .linkage-add-bar {
+    text-align: center;
+}
+.linkage-minus:before {
+    content: url(../images/linkage_minus.gif);
+}
+.linkage-plus:before {
+    content: url(../images/linkage_plus.gif);
+}
+.linkage-arrow:before {
+    content: url(../images/linkage_arrow.gif);
+}
+.linkage-plus, .linkage-minus {
+    cursor: default;
+}
+.linkage-fork {
+    width: 18px;
+    height: 18px;
+    margin-top: 3px;
+    margin-right: 3px;
+    float: left;
+    position: relative;
+}
+.linkage-plus, .linkage-minus, .linkage-arrow {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    float: left;
+    margin-top: -2px;
+    margin-right: 3px;
+}
+.addItemLink, .cancelItemLink {
+    cursor: pointer;
+}
+.linkage-drag-handle {
+    color: #3BF;
+    cursor: move;
+    cursor: -webkit-grabbing;
+}
+.linkage-yes {
+    background: url(../images/yes.gif);
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    cursor: pointer;
+}
+.linkage-no {
+    background: url(../images/no.gif);
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    cursor: pointer;
+}
+.linkage-action-tip {
+    color: #5C7;
+    position: fixed;
+    top: -40px;
+    opacity: 0;
+    left: 50%;
+    width: 130px;
+    margin-left: -65px;
+    background-color: #CFD;
+    display: inline-block;
+    z-index: 1000;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    -webkit-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+}
+.linkage-action-tip.show {
+    top: 0px;
+    opacity: 1;
+}
+.addItemLink {
+    color: #1C1;
+}
+.linkage-add-link {
+    color: #38E;
+}
+.linkage-delete-link, .cancelItemLink {
+    color: #E35;
+}
+.linkage-add-link.linkage-selected {
+    color: #92F;
+}
+.addItemLink:hover, .cancelItemLink:hover, .linkage-add-link:hover, .linkage-delete-link:hover {
+    color: #D3D;
+}

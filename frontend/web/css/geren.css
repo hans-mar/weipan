@@ -1,0 +1,270 @@
+@charset "utf-8";
+body{background:#fff;}
+.personal{max-width:640px;min-width:320px;width:100%;margin:0 auto;padding:0}
+.per_top{background:url(images/p_bj.jpg) no-repeat #fe3e34;background-size:100% 135px}
+.boxflex{width:100%}
+.boxflex{box-sizing:border-box}
+.createorder-content .boxflex {
+    padding: 2px 10px;
+    box-sizing: border-box;
+}
+/* 充值页面开始 */
+.boxflex1{    
+    padding: 5px 10px;
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    background: #fff;    
+    font-size: 14px;
+}
+.boxflex1 .img-wrap{
+    border:none;
+}
+.mt10{margin-top: 10px;}
+.boxflex1 .p_zichan{
+    padding:2px 0 4px 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.boxflex1 .cash{
+    padding-left: 10px;
+}
+.boxflex1 .cash b{
+    font-weight:normal;
+    color:#f00;
+}
+.boxflex1.none{
+    border-top:none;
+}
+.charge-header {
+    color: #757272;
+    padding: 12px 10px;
+    text-align: center;
+    font-size: 1.4em;
+    background: #fff;
+}
+.charge-header span{
+    margin-left:-40px;
+}
+.group_btn {
+    width: 100%;
+    margin: 0 auto;
+}
+.group_btn.group .btn_re{
+    width: 23%;
+}
+.group_btn .btn_re {
+    width: 18%;
+    float: left;
+    margin-left: 2%;
+    margin-bottom: 10px;
+}
+.group_btn .btn_re:first-child{
+    margin-left:0;
+}
+.btn_money {
+    display: inline-block;
+    width: 100%;
+    color: #333;
+    background: #fff;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    border:1px solid #ccc;
+    padding: 8px 0;
+}
+.btn_money.active{
+    border:1px solid #2093ec;
+    background: #2093ec;
+    color:#fff;
+}
+.moneyhead{
+    color:#333;
+    font-size: 12px;    
+    line-height: 28px;
+}
+.recharge-btn{
+    color:#fff;
+    background: #2093ec;
+    margin:20px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+    padding:7px 0;
+}
+/* 充值页面结束 */
+
+/* 提现页面开始 */
+.withdrawal-name{
+    width: 25%;
+    float:left;
+    font-size: 12px;
+    color:#333;   
+    line-height: 28px;
+}
+.withdrawal-con{
+    width: 75%;
+    float: left;
+}
+.withdrawal-con .form-control{
+    width: 100%;
+    line-height: 26px;
+    text-indent: 8px;
+    font-size: 13px;
+}
+.withdrawal-con .control-style{
+    width: 100%;
+    line-height:26px;
+    text-indent: 8px;
+    font-size: 13px;
+}
+.withdrawal-con.yanzheng{
+    width: 55%;
+    float:left;
+}
+.boxflex1  .get-btn{
+    color:#0066FF;
+    float: right;
+}
+
+.withdrawl-btn {
+    color: #fff;
+    background: #0527a2;
+    margin: 40px 20px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 7px 0;
+}
+.withdrawal-tips{
+    margin: 20px;
+    line-height: 28px;
+    color: #666;
+    font-size: 14px;
+}
+.withdrawal-tips ul li{
+    color: #999;
+    font-size: 13px;
+    line-height: 26px;
+    padding-left: 25px;
+}
+/* 提现页面结束 */
+.per_top .p_zichan{padding:7px 10px 0;font-size:15px;color:#fff}
+.per_top .cash-wrap{height:40px;padding:0}
+.cash-wrap>*{padding-left:2px;height:100%;width:33.33%}
+.cash-wrap>:first-child{padding-left:0}
+.cash-wrap .p_zijin{background-color:rgba(0,0,0,.1);color:#eee;height:100%;box-sizing:border-box;text-align:center}
+.cash-wrap .p_zijin .key{padding:3px 0 1px;font-size:14px}
+.withdraw{margin-top:8px}
+.img-wrap{width:60px;height:60px;border:1px solid #ccc;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;-o-border-radius:4px}
+.img-wrap img{width:100%;height:100%}
+.per_top .img-wrap{margin-left:5px;margin-top:5px;width:50px;height:50px;border:1px solid #ccc;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;-o-border-radius:4px;border-radius:50%;overflow: hidden;}
+.per_top .img-wrap img{width:100%;height:100%}
+.btncenter-withdraw-wrap{/*width:18%*/}
+.recharge a,.withdraw a{position: relative;top: 6px;width:90%;height:22px;line-height:22px;text-align:center;font-size:14px;color:#FFF;display:block;background-color:#2093ec;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;-o-border-radius:4px;cursor:pointer}.center-list-wrap ul{padding-left:10px;border-top:1px solid #bbb;border-bottom:1px solid #bbb;background-color:#FFF}
+.center-list-wrap li{padding:7px 20px 7px 0;cursor:pointer;width:100%;box-sizing:border-box;border-top:1px solid #bbb}
+.center-list-wrap li a{
+    display: inline-block;
+    width: 100%;
+}
+.center-list-wrap li:first-child{border-top:0}
+.center-list-wrap li.bottom-wrap i.icon{width:36px;height:36px}
+.center-list-wrap li.bottom-wrap i.icon.icon-share{background-position:-123px -173px}
+.center-list-wrap li.bottom-wrap i.icon.icon-compentate{background-position:-123px -92px}
+.center-list-wrap li.bottom-wrap i.icon.icon-newsgift{background-position:-123px -26px}
+.center-list-wrap li>*{vertical-align:middle;font-size:14px;color:#333}
+.center-list-wrap.setting{margin-top:10px}
+.center-list-wrap li .u_ticket,.center-list-wrap li .u_earn_sp{width:8.5em;text-align:right;width:1.5em}
+.center-list-wrap li .u_ticket{color:red}
+.center-list-wrap li .content-wrap .shorttip{font-size:10px;color:#d82f2f;padding:2px 0}
+.center-list-wrap li .content-w{    display: inline-block; width: 100%; padding: 10px 0;} 
+.center-list-wrap li .title{font-size:14px}
+.center-list-wrap li .title-text{padding:2px 0 2px 5px}
+.center-list-wrap li .title-tip{color:#999;font-size:10px;padding:2px 0}
+.rew_title{padding:10px;font-size:15px;color:#333}
+.personal .user-title{line-height:38px;height:38px;background-color:transparent;padding-left:10px;color:#999}
+.pointset-wrap{background:#fff;border-radius:6px;font-size:15px}
+.pointset-wrap .title{height:40px;line-height:40px;text-align:center;color:#444}
+.pointset-wrap .content{padding:20px 0;text-align:center;border-bottom:1px solid #ccc;border-top:1px solid #ccc}
+.pointset-wrap .content input{border:1px solid #ccc;background:#eee;width:70%;height:18px;padding:6px 10px;text-align:center;line-height:18px}
+.pointset-wrap .btn-sure{text-align:center;height:40px;line-height:40px}
+.pointset-wrap .btn-sure span{display:inline-block;padding:0 20px;font-size:15px;color:#2093ec}
+.sharetip-wrap{position:fixed;top:0;left:0;width:100%;height:100%;z-index:99999;background-color:rgba(0,0,0,.7)}
+.sharetip-wrap img{width:80%;position:fixed;top:5px;right:25px;z-index:99998}
+.icon-manage{background:url(../images/manageicon.png) no-repeat;width:30px;height:30px;background-size:100%;background-size:87%;background-position:center center}
+
+
+
+
+/* 添加支付开始*/
+
+ .apage-header {
+    top: 0;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    background-color: #268bf2
+}
+.apage-header h3 {
+    font-size: 16px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.apage-header .left a {
+    display: block;
+    margin-left: .2rem
+}
+
+.apage-header .left a.go-back {
+    margin-left: 0;
+    padding-left: .14rem;
+    padding-right: .1rem
+}
+
+.apage-header .right {
+    margin-right: .2rem
+}
+
+.apage-header .left,.apage-header .right {
+    margin-top: -50px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    font-size: .14rem
+}
+   
+.page-main {
+    /*padding-top: 50px;*/
+    padding-bottom: .6rem
+}
+.mod-list {
+    border-top: 1px solid #ddd;
+    padding: 0 0 0 20px;
+    background-color: #fff
+}
+.mod-list>li {
+    padding: 15px 0;
+    border-top: 1px solid #e5e5e5;
+    height: auto;
+}
+.mod-list>li:first-child {
+    border-top: 0
+}
+
+/* 添加支付结束*/
+
+.btncenter-withdraw-wrap div{
+    display: inline-block;
+    width: 60px;
+    margin-top:11px;
+    
+}
+.btncenter-withdraw-wrap div a{
+    height: 30px;
+    line-height: 30px;
+}
+.p_zichan{
+    margin-top:15px;
+}
+
+

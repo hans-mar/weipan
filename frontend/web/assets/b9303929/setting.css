@@ -1,0 +1,195 @@
+.clearfix::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+.setting-container * {
+    margin: 0;
+    padding: 0;
+}
+.setting-container label {
+    margin: 0 15px 0 5px;
+    vertical-align: middle;
+}
+.setting-container ul {
+    margin: 20px 0 0 0px;
+    width: 1100px;
+}
+.setting-container ul li {
+    list-style: none;
+    float: left;
+}
+.setting-container ul li a {
+    color: #333;
+    display: block;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+.setting-container ul li.current a {
+    color: #FFF;
+    font-weight: bold;
+    background-color: #222;
+}
+.setting-container ul li span {
+    line-height: 28px;
+}
+.setting-container a {
+    text-decoration: none;
+}
+.setting-container img {
+    border: 0 none;
+    vertical-align: middle; 
+}
+.setting-container input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    width: 455px;
+}
+.setting-container textarea {
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    width: 455px;
+    resize: none;
+}
+.setting-container select {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 0;
+    width: 474px;
+}
+.setting-container table td span {
+    vertical-align: inherit;
+}
+.setting-container table.setting-table {
+    border-top: none;
+    border-bottom: none;
+    margin: 20px 0 0 0px;
+    width: 1100px;
+}
+.setting-container table th, .setting-container table td {
+    border-left: none;
+}
+.setting-container table h4 {
+    margin: 0 0 5px 5px;
+    color: #456;
+    display: inline-block;
+    vertical-align: middle;
+}
+.setting-container table th {
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+}
+.setting-container table tr {
+    margin: 20px 0 0;
+}
+.setting-container input[type="button"] {
+    border: 0 none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 7px 0;
+    width: 90px;
+    background: none repeat scroll 0 0 #119BFF;
+}
+.setting-container input[type="button"]:hover {
+    background: none repeat scroll 0 0 #007AFF;
+}
+.setting-container .change-edit-li {
+    float: right;
+}
+.setting-container .config-name {
+    font-weight: bold;
+}
+.setting-container #addTopParentLink {
+    background: #F2F2F2;
+}
+.setting-container .change-edit-li a {
+    background: none repeat scroll 0 0 #89BF5C;
+    color: white;
+}
+.setting-container .change-edit-li a.showText {
+    background: none repeat scroll 0 0 #89BF5C;
+}
+.setting-container .change-edit-li a.showEdit {
+    background: none repeat scroll 0 0 #D67DB8;
+}
+.setting-container .add-link-img {
+    margin-left: 10px;
+    vertical-align: top;
+    font-size: 20px !important;
+}
+.setting-container .delete-link-img {
+    font-size: 20px !important;
+}
+.setting-container .add-child-select {
+    height: 23px;
+    margin: 0 5px;
+    padding: 0;
+    width: 100px;
+}
+.setting-container .menu-name-input {
+    margin: 0 0 0 5px;
+    padding: 5px;
+    width: 150px;
+}
+.setting-container input.menu-name-submit {
+    margin-left: 5px;
+    padding: 5px;
+    width: 50px;
+}
+.setting-container .child-menu-input {
+    height: 20px;
+    margin-left: 5px;
+    padding: 0 0 0 5px;
+    width: 130px;
+}
+.setting-container input.child-menu-submit {
+    height: 22px;
+    margin-left: 5px;
+    padding: 0;
+    width: 50px;
+}
+.setting-container .add-parent-span {
+    color: #F6526B;
+    vertical-align: top;
+}
+.setting-container .add-child-span {
+    color: #a83bf7;
+}
+.setting-container .showMode {
+    display: none;
+}
+.setting-container a.fancybox {
+    color: #16F;
+    font-size: 16px;
+    vertical-align: middle;
+}
+.setting-container a.fancybox:hover {
+    color: #33E;
+}
+.setting-container .add-bar td {
+    line-height: 30px;
+}
+.setting-container .submit-bar {
+    height: 45px;
+}
+.setting-container .icon {
+    cursor: pointer;
+    font-weight: 900;
+}
+.setting-container .add-icon {
+    color: #6C6;
+    font-size: 36px;
+}
+.setting-container .delete-icon {
+    color: #F31;
+    font-size: 36px;
+    margin-right: 10px;
+}

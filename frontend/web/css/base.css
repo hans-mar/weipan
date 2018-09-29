@@ -1,0 +1,215 @@
+@charset "UTF-8";
+*, *:after, *:before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:after {
+  clear: both;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+fieldset, img, a img {
+  border: none;
+}
+
+address, cite, dfn, em, var {
+  font-style: normal;
+}
+
+/* 将斜体扶正 */
+code, kbd, pre, samp {
+  font-family: courier new, courier, monospace;
+}
+
+/* 统一等宽字体 */
+body, button, input, select, textarea, small {
+  font: 12px/1.5 Arial,Microsoft YaHei,SimHei,Heiti SC,tahoma;
+}
+
+/** 重置列表元素 **/
+ul, ol {
+  list-style: none;
+}
+
+/** 重置文本格式元素 **/
+a, a:visited, a:focus {
+  text-decoration: none;
+  color: #333;
+  outline: none;
+}
+
+i {
+  font-style: normal;
+}
+
+/** 重置表单元素 **/
+button, input, select, textarea {
+  font-size: 100%;
+  outline: none;
+}
+
+/** 重置表格元素 **/
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.flex, .flex-c {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  text-align: center;
+}
+
+.flex2, .flex, .flex-c2, .flex-c {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.flex-c2, .flex-c {
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+}
+
+/* 展现消失  */
+.none {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.show-ib {
+  display: inline-block;
+}
+
+/* 字体粗细 */
+.fb {
+  font-weight: bold;
+}
+
+.fn {
+  font-weight: normal;
+}
+
+.fi {
+  font-weight: inherit;
+}
+
+/* 部分其他功能 */
+.pr {
+  position: relative;
+}
+
+.pa {
+  position: absolute;
+}
+
+.pf {
+  position: fixed;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.cent {
+  text-align: center;
+}
+
+.f-le {
+  text-align: left;
+}
+
+.f-ri {
+  text-align: right;
+}
+
+.v-cent {
+  vertical-align: middle;
+}
+
+.cb {
+  clear: both;
+}
+
+/*		一般UL		*/
+.first.ul-box{
+	margin-top:0rem ;
+}
+.ul-box{
+	margin-top:.1rem ;
+}
+.ul-box li{
+	font-size: .13rem;
+	height: .5rem;
+	width: 100%;
+	background-color: white;
+	border-bottom:1px #ccc solid;
+	line-height: .5rem;
+	padding:0 .15rem;
+}
+.ul-box li input{
+	border:0;
+}
+/*		行		*/
+.li-box{
+	height: .5rem;
+	width: 100%;
+	background-color: white;
+	border-bottom:1px #ccc solid;
+	line-height: .5rem;
+	padding:0 .15rem;
+	font-size: .13rem;
+}
+.li-box input{
+	border:0
+}
+
+/*		两	个TAB-UL		*/
+.twoUl li{
+	width: 50%;
+	float: left;
+	height: .45rem;
+	line-height: .45rem;
+	text-align: center;
+	font-size: .13rem;
+	position: relative;
+	border-bottom:1px #ccc solid;
+	background-color: white;
+	transition: all .2s;
+}
+.twoUl li:first-child:after{
+	content: "";
+	width: 1px;
+	height: .2rem;
+	position: absolute;
+	top: 50%;
+	margin-top: -.1rem;
+	right: 0;
+	background-color: #ccc;
+	display: inline-block;
+}
+.twoUl li.active{
+	border-bottom:4px #4399d6 solid;	
+}

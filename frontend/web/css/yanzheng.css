@@ -1,0 +1,39 @@
+@charset "utf-8";
+body{background-color:#f2f2f2}
+.forget-box{max-width:640px;min-width:320px;width:100%;margin:0 auto;padding:20px;box-sizing:border-box}
+.forget-box .title{font-size:16px;color:#666;text-align:center;padding:10px 0 30px}
+.phone-wrap{width:100%;line-height:40px;height:40px}
+.phone-wrap .sendvalidcode-wrap{width:8em;padding-left:10px}
+.form-group.field-user-mobile {
+    width: 60%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.textcode{
+	margin-left: 2%;
+	width: 38%;
+	text-align: center;
+	color: #a9a5a5;
+	box-sizing: border-box;
+	height: 40px;
+	line-height: 40px;
+	border: #ccc 1px solid;
+	font-size: 13px;
+	margin: 10px 0;
+	border-radius: 4px;
+	padding: 0 10px;    
+	display: inline-block;
+	background: #fff;
+}
+.phone-wrap .textvalue,.forget-box .content-wrap .textvalue{width:100%;height:40px;line-height:40px;box-sizing:border-box;border:#ccc 1px solid;font-size:13px;margin:10px 0;border-radius:4px;padding:0 10px}
+#errorMsg{padding:10px 0;line-height:30px;height:30px;color:#d82f2f}
+.phone-wrap .sendvalidcode-wrap a,.forget-box .content-wrap a.btn-sure{display:block;width:100%;height:40px;line-height:40px;cursor:not-allowed;font-size:16px;color:#FFF;border-radius:4px;text-align:center;box-sizing:border-box;    background: #126ee4;}
+.disabled{background-color:#ccc !important;}
+.phone-wrap .sendvalidcode-wrap .sendvalidcode{color:#fff;border:1px solid #126ee4;background: #126ee4;}
+.phone-wrap .sendvalidcode-wrap .sendvalidcode.disabled{color:#ccc;border:1px solid #ccc;background-color:#FFF}
+
+.phone-wrap .sendvalidcode-wrap .sendvalidcode.active{color:#2093ec;background-color:#FFF;border:#2093ec 1px solid;cursor:pointer}
+.forget-box .content-wrap a.btn-sure.active{cursor:pointer;background-color:#2093ec}
+
+
+

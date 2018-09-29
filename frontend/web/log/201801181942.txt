@@ -1,0 +1,65 @@
+2018-01-18 19:42:00
+开始接
+ 
+ 
+ 2018-01-18 19:42:00
+{"data":{"orderType":"interface","tradeNo":"B18P2018011816452400225024","signType":"MD5","charset":"UTF-8","nonceStr":"2018011819420055198H0","outTradeNo":"10024627320180118164523","payMsg":"\u8ba2\u5355\u8fc7\u671f\uff0c\u5df2\u5173\u95ed","version":"1.0","sign":"2560aeee4f436d3cc6950540d163bace","totalFee":"4800.00","mchCode":"1513662781693","payStatus":"3","payType":"pay.alipay.native"},"message":"OK","status":"1"}
+ 
+ 
+ 2018-01-18 19:42:00
+验证签名
+ 
+ 
+ 2018-01-18 19:42:00
+验证签名ok
+ 
+ 
+ 2018-01-18 19:42:01
+开始接
+ 
+ 
+ 2018-01-18 19:42:01
+{"data":{"orderType":"interface","tradeNo":"B18P2018011817343865234731","signType":"MD5","charset":"UTF-8","nonceStr":"20180118194201575Jzc9","outTradeNo":"10024699620180118173437","payMsg":"\u8ba2\u5355\u8fc7\u671f\uff0c\u5df2\u5173\u95ed","version":"1.0","sign":"e71b54d73b65ae429121a4d114685445","totalFee":"4800.00","mchCode":"1513662781693","payStatus":"3","payType":"pay.alipay.native"},"message":"OK","status":"1"}
+ 
+ 
+ 2018-01-18 19:42:01
+验证签名
+ 
+ 
+ 2018-01-18 19:42:01
+验证签名ok
+ 
+ 
+ 2018-01-18 19:42:02
+开始接
+ 
+ 
+ 2018-01-18 19:42:02
+{"data":{"orderType":"interface","tradeNo":"B18P2018011817344055143298","signType":"MD5","charset":"UTF-8","nonceStr":"201801181942017442TQs","outTradeNo":"10024677020180118173440","payMsg":"\u8ba2\u5355\u8fc7\u671f\uff0c\u5df2\u5173\u95ed","version":"1.0","sign":"01a8288fe9de8f19ac8abd05ca7e266e","totalFee":"4800.00","mchCode":"1513662781693","payStatus":"3","payType":"pay.alipay.native"},"message":"OK","status":"1"}
+ 
+ 
+ 2018-01-18 19:42:02
+验证签名
+ 
+ 
+ 2018-01-18 19:42:02
+验证签名ok
+ 
+ 
+ 2018-01-18 19:42:02
+开始接
+ 
+ 
+ 2018-01-18 19:42:02
+{"data":{"orderType":"interface","tradeNo":"B18P2018011817344213252495","signType":"MD5","charset":"UTF-8","nonceStr":"20180118194201882x4yN","outTradeNo":"10024695720180118173441","payMsg":"\u8ba2\u5355\u8fc7\u671f\uff0c\u5df2\u5173\u95ed","version":"1.0","sign":"ecf2d93836467be579b1e3b390689eb2","totalFee":"4800.00","mchCode":"1513662781693","payStatus":"3","payType":"pay.alipay.native"},"message":"OK","status":"1"}
+ 
+ 
+ 2018-01-18 19:42:02
+验证签名
+ 
+ 
+ 2018-01-18 19:42:02
+验证签名ok
+ 
+ 
+ 

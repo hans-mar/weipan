@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+.list-group-box{border-bottom:1px solid #191919;margin-bottom: 0;}
+.list-group-box li{font-size:14px;text-align:center;padding:18px 0;float: left;width:23%;border-left:1px solid #000;margin-left: -1px;}
+.list-group-box li:nth-last-child{width:29%;}
+.list-item{border-bottom:1px solid #191919;margin-bottom: 0;margin-top:10px;}
+.list-item li{float: left;/*padding:0 14px;*/width:23%;text-align:center;}
+.list-item li{overflow: hidden;}
+.list-item li p> img{margin-left:12px;}
+.list-item li:nth-child(4){width: 29%;}
+.buy-tab{border-bottom:1px solid #e6262e;}
+.buy-tab li{font-size:1.4rem;margin-bottom:0;width:50%;background:#fff;text-align:center;overflow: hidden;color:#e6262e;}
+/*.buy-tab li.active>a{border:none;background:#e6262e;color:#fff;padding-bottom: 12px;border-radius:inherit;}*/
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{border:none;background:#e6262e;color:#fff;padding-bottom: 12px;border-radius:inherit;}
+.nav-tabs>li>a{margin-right:0;}
+
+
+.cash-box{font-size:1.4rem;width:96%;margin:0 auto;background: #fff;border-radius: 4px;overflow:hidden;color:#000;text-align: center;}
+.cash-box-width{overflow: hidden;margin: 0 15px;border-bottom:1px solid #f2f2f2;overflow: hidden;}
+.btn-cash{padding:4px 14px;width:60px;border-radius:20px;background:#eeeeee;border:1px solid #eee;display: inline-block; }
+.btn-cash:hover{text-decoration:none;}
+.items-bor{border:1px solid #28cb3b !important;}
+.minus-bor{border-right:1px solid #28cb3b !important;}
+.push-bor{border-left:1px solid #28cb3b !important;}
+.buy-btn-box{border:1px solid #e6262e;border-radius:20px;background:#e6262e;overflow: hidden; }
+/*.buy-btn-sure {padding:8px 46px;display: inline-block;color: #333;font-size: 16px;}
+.buy-btn-sure:hover{color: inherit;text-decoration: none;}
+*/
+.buy-btn-sure {padding:8px 40px;/*color: #333;*/font-size: 16px; float:left; width:50%;text-align: center;}
+.buy-btn-sure:hover{color: inherit;text-decoration: none;}
+.buy-btn-sure:focus{text-decoration: none;}
+.buy-btn-sure:hover.co_f {color:#fff;text-decoration: none;}
+.cash-img{position: absolute;top: 27px;right: 5px;    display: none;}
+.price-bg{background:#e6262e !important;color: #fff !important;border:1px solid #e6262e !important;}
+.price-bg:focus{text-decoration: none;}
+.volume{position:absolute;top:5px;left: 50%;margin-left:3px;}
+.hand {
+    width: 62px;
+    margin-left: 8px;    
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+/*去除select默认样式*/
+.styled-select{position:relative;display: inline-block;}
+.styled-select select {	
+      border:none;
+      color:#000;
+      background: transparent;
+      outline: none; 
+      border:1px solid #999; 
+      height:37px; 
+      padding:6px 50px; 
+      border-radius:20px;
+      -webkit-appearance: none; /*for chrome*/
+    }
+.styled-select select:focus{box-shadow: none;}
+.icon-triangle{color:#999;position:absolute;bottom:7px;right:8px;}
+.control-label{text-align:center;font-weight: 100;font-size: 1.2rem;padding:10px 5px;background:#000c17;border-radius:6px;}
+
+.list-box{overflow: hidden;padding-left: 0;}
+.list-box .item{margin:0 10px;width:50%;display:inline-block;background:#fff;border:1px solid #999;overflow:hidden;border-radius:50px;position:relative;}
+.list-box .item input{padding: 6px 0;background: #fff;border: none;text-align: center;width:100%;}
+.list-box .item input:focus{outline: none;}
+.list-box a:hover{color:#e6262e;text-decoration: none;}
+.list-box .num_tip{
+		  position: absolute;
+			bottom: -50px;
+			left:52px;
+			width: 40%;
+			height: 50px;
+			background: transparent;
+			text-align: center;
+			font-size:14px;
+			font-weight: 700;
+			line-height: 50px;
+	}
+.modal-dialog-list li{float: left;width: 16%;}
+.dialog-list{text-align:center;line-height:40px;border:1px solid #999;color: #333;border-radius: 50%;width:40px;height: 40px;}
+.dialog-list-bg{text-align:center;line-height:40px;background:#e6262e;color: #fff;border:1px solid #e6262e;border-radius: 50%;width:40px;height: 40px;}
+.btn-dialog{border-radius: 20px;border:none;padding:8px 70px;color: #fff;background:#e6262e ;}
+.pc_list a{display: inline;
+    margin-left: 6px;}

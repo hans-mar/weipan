@@ -1,0 +1,97 @@
+#wizard-toolbar * {
+    padding: 0;
+}
+#wizard-toolbar {
+	background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(237, 237, 237, 1) 0%, rgba(246, 246, 246, 1) 53%, rgba(255, 255, 255, 1) 100%) repeat scroll 0 0;
+    direction: ltr;
+    font: 11px Verdana,Arial,sans-serif;
+    padding: 0;
+    text-align: center;
+    word-wrap: break-word;
+    position: absolute;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    top: 70px;
+    left: -79px;
+    min-width: 80px;
+    min-height: 40px;
+    z-index: 99999;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.wizard-area .wizard-question {
+    background: url(question.png) no-repeat scroll 0 0;
+    background-size: 12px;
+    display: inline-block;
+    vertical-align: sub;
+    height: 13px;
+    width: 13px;
+    float: right;
+}
+.wizard-hint {
+    display: none;
+    background: white;
+    position: absolute;
+    border: 1px solid #AAA;
+    border-radius: 2px;
+    font-size: 12px;
+    color: #E35;
+    margin: 0 36px;
+    padding: 5px;
+    text-align: left;
+    width: 500px;
+    line-height: 20px;
+}
+.wizard-hint:before {
+    content: "";
+    border-color: transparent #aaa transparent transparent;
+    border-style: solid;
+    border-width: 5px;
+    position: absolute;
+    top: 2px;
+    left: -10px;
+}
+.wizard-hint:after {
+    content: "";
+    border-color: transparent #fff transparent transparent;
+    border-style: solid;
+    border-width: 5px;
+    position: absolute;
+    top: 2px;
+    left: -9px;
+}
+#wizard-toolbar > div {
+	padding: 1px;
+}
+.wizard-input {
+	width: 70px;
+	height: 18px;
+}
+.wizard-textarea {
+    resize: none;
+}
+#create-migration {
+    font-size: 14px;
+    cursor: pointer;
+}
+#create-migration:hover {
+    color: #3C3 !important;
+}
+.wizard-more {
+    color: #55e;
+    font-size: 16px;
+    margin-top: 5px;
+    display: inline-block;
+}
+.wizard-area-more {
+    text-decoration: none;
+    border-top: 1px dashed;
+    margin: 9px 3px 3px;
+}
+.wizard-area-hidden {
+    display: none;
+}
+.wizard-hidden {
+    display: none;
+}

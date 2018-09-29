@@ -1,0 +1,151 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "microsoft yahei";
+	font-size: 14px;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+.clearfix:after {
+	content: ".";display: block;height: 0;clear: both;visibility: hidden;
+}
+.clearfix {
+	zoom: 1;
+}
+
+ul.rbac-nav {
+	border-bottom: 2px solid #323a45;
+}
+ul.rbac-nav li {
+	float: left;
+	line-height: 40px;
+	margin-right: 5px;
+}
+ul.rbac-nav li a {
+	display: block;
+	padding: 0 10px;
+}
+ul.rbac-nav li.selected a ,ul.rbac-nav li a:hover {
+	background: #323a45;
+	color: white;
+}
+ul.rbac-tab {
+	margin: 20px 0 15px 0;
+}
+ul.rbac-tab li {
+	float: left;
+	line-height: 30px;
+	margin: 0 0 0 10px;
+	font-size: 12px;
+}
+ul.rbac-tab li a {
+	display: block;
+	padding: 0 5px;
+	background: #999;
+	color: white;
+	border-radius: 5px;
+}
+ul.rbac-tab li.cur a,ul.rbac-tab li a:hover {
+	background: #3399cc;
+}
+
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+table th,table td {
+	padding: 5px 10px;
+	border: 1px solid #ddd;
+}
+table input {
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+
+input[type="submit"]{
+	height: 30px;
+	background: #3399cc;
+	border: 0;
+	padding: 0 15px;
+	margin: 15px 0 0 10px;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+}
+
+.summary {
+	height: 30px;
+	line-height: 30px;
+}
+
+ul.pagination {
+	margin: 20px 0 0;
+}
+ul.pagination li {
+	float: left;
+	width: 24px;
+	height: 24px;
+	line-height: 24px;
+	margin-right: 5px;
+	font-size: 12px;
+}
+ul.pagination li a,ul.pagination li span {
+	display: block;
+	border: 1px solid #314256;
+	color: #314256;
+	text-align: center;
+}
+
+ul.pagination li a:hover,ul.pagination li.active a {
+	background: #314256;
+	color: white;
+}
+.form-group label {
+	margin-right: 5px;
+}
+
+div.has-error div.help-block {
+	color: #ee2233;
+}
+div.empty-info {
+	font-weight: bold;
+	margin: 5px 10px;
+	font-size: 20px;
+}
+
+.list-view {
+	padding: 5px 10px;
+}
+
+table a.edit-fancybox {
+	color: #2b77cc;
+}
+table a.edit-fancybox:hover {
+	color: #77cc2b;
+}
+table a.deleteRole {
+	color: #ef2233;
+}
+table a.deleteRole:hover {
+	color: #77cc2b;
+}
+th.required:before {
+    content: "* ";
+    color: red;
+}
+
+input.permission-input {
+	width: 300px
+}
+input.rule-input {
+	width: 180px
+}

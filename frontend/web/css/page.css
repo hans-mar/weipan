@@ -1,0 +1,12 @@
+form .help-block {
+    color: #C33;
+}
+.bg_h {
+    text-align: center;
+}
+.pagination{margin-top:20px;}
+.pagination li a{color:#e6262e;}
+.pagination li.active a{background-color:#e6262e;border:none;}
+
+
+

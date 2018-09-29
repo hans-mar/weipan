@@ -1,0 +1,58 @@
+/*experience*/
+
+.bg_r{background:#e6262e;}
+
+.reg_btn{ width:90%; margin:25px auto;}
+.reg_btn button{background:#e6262e; border:none; width:100%; padding:10px 0px; font-size:1.2em; color:#fff; border-radius:25px;}
+.reg_btn button:focus,.price_btn:focus{outline: none;}
+.price_btn{width:90%;margin:0 auto 10px;height:110px;background-image: url(../images/yh.png);background-repeat:no-repeat;background-size:100% 100%;color: #fff;padding: 6px 50px; font-size: 16px;border: 0;border-radius: 4px;}
+.co_0{color: #000 !important;}
+.bor-bottom{border-bottom: 1px solid #ddd;}
+/*share*/
+.bg_h{background-color: #ffe512;}
+.bg_share{background-image: url(../images/share.png);background-position: top center;background-repeat: no-repeat;background-size: 100%;}
+.fix-btn{position:fixed;bottom:8%;left: 50%;margin-left:-40%;;}
+.share-box{font-size: 20px;color: #fff;text-align: right;}
+.share-box img{width: 40%;}
+.bg_rgba{background: rgba(0, 0, 0, 0.5);}
+
+/*底部导航栏 begin*/
+.footer_nav{
+	width:100%;
+	line-height: 1em; 
+	text-align: center;
+	position:fixed;
+	bottom:0px;
+	border-top:1px solid #C7C7C7;
+	background:#fff;
+	padding:5px 0px 6px 0px;
+	z-index:1013;
+}
+.footer_nav li{
+	float:left;
+	width:25%;
+	text-align:center;
+}
+.footer_nav li a{
+	text-decoration:none;
+	display:block;
+}
+.footer_nav li a p{
+	color:#7c7c7c;
+	font-size:1.2rem;
+	padding-top:3px;
+}
+/*end 底部导航栏 */
+/*清除浮动*/
+.clearfix{
+	*zoom:1;
+}
+.clearfix:after{
+	content:".";
+	display:block;
+	clear:both;
+	visibility:hidden;
+	line-height:0;
+	height:0;
+	}
+	

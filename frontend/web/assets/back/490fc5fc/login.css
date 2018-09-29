@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+body {
+    font-size: 14px;
+}
+
+.header,
+.footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 99
+}
+
+.header {
+    top: 0;
+    height: 60px;
+    background: #426374 url(logo.png) no-repeat 0 center;
+}
+
+.login-wraper {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    background: #3283AC url(admin-login-bg.jpg) no-repeat center
+}
+
+.login-box {
+    position: absolute;
+    width: 617px;
+    background: url(admin-loginform-bg.png) no-repeat;
+    left: 50%;
+    top: 50%;
+    margin-left: -309px;
+    margin-top: -184px;
+    padding-top: 38px
+}
+
+.login-box label.form-label {
+    font-weight: normal;
+}
+
+.login-box .row {
+    margin-top: 20px;
+}
+
+.login-box .row .form-label .Hui-iconfont {
+    font-size: 24px;
+}
+
+.login-box .input-text {
+    width: 360px;
+}
+
+@media (max-width: 617px) {
+    .login-box .input-text {
+        width: 40%; 
+    }
+    .form-horizontal .form-label {
+        text-align: right !important;
+        margin-left: 47px;
+    }
+    .col-xs-offset-3 {
+        margin-left: 30% !important;
+    }
+}
+
+.footer {
+    height: 46px;
+    line-height: 46px;
+    bottom: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    background-color: #426374;
+}
